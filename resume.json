@@ -5,11 +5,11 @@
         "picture": "https://avatars0.githubusercontent.com/u/1154834",
         "email": "marclundgren2.0@gmail.com",
         "website": "http://ilikerobots.me",
-        "summary": "Marc is a Front End Developer with almost 3 years of Front End Development under his belt.  Before that, he studied Computer Science and mastered Google AdWords advertising part-time during college. He's worked on teams large and small, international and domestic, from startups to large organizations. He travels the world with his wife whenever an opportunity arises, and loves to shoot hoops. Science and Music are his two favorite things. He loves to help others learn and grow. He lives in Hollywood, CA, and feels most productive & happy when either working remote or close to home.",
+        "summary": "I'm a Front End Developer with almost 4 years of Front End Development experience.  Before that, I studied Computer Science and mastered Google AdWords advertising part-time during college. I've worked on teams large and small, international and domestic, from startups to large organizations. I enjoy traveling the world with my wife whenever an opportunity arises. I live near Los Angeles, CA, and feel most productive & happy when either working remote or close to home.",
         "location": {
             "address": "",
             "postalCode": "CA 90802",
-            "city": "Hollywood",
+            "city": "Los Angeles",
             "countryCode": "US",
             "region": "California"
         },
@@ -38,7 +38,7 @@
             "website": "http://liferay.com",
             "startDate": "2012-02-22",
             "endDate": "2014-08-20",
-            "summary": "He developed and contributed to the Liferay Portal and AlloyUI projects. His code contributions were usually in the form of Javascript, CSS, Sass, JSP and Java. Liferay UI Developers require knowledge of Bootstrap 2 and 3, as well as a deep understanding of YUI, an MVC framework similar to jQuery. Some of the tools he used include Git, Sublime Text, Gulp, Grunt, Node, Ant, Bash/ZSH scripting, and MySQL.",
+            "summary": "I developed and contributed to the Liferay Portal and AlloyUI projects open-source projects. My code contributions typically came in the form of Javascript, CSS, Sass and JSP. Liferay UI Developers require knowledge of Bootstrap 2 and 3, as well as a deep understanding of YUI, an MVC framework similar to jQuery. Some of the tools and technology I learned to use at Liferay include Git, Sublime Text, Gulp, Grunt, Node, Ant, Bash/ZSH scripting, and MySQL.",
             "highlights": [
                 "Responsive Development",
                 "Mobile First Design",
@@ -54,10 +54,21 @@
             "position": "Front End Developer",
             "website": "http://fidm.edu",
             "startDate": "2014-08-21",
-            "summary": "He learned to leverage React.js Backbone, and Underscore, as well as Moment.js while building a multi-source web calendar. Another project he's working on is a Video Gallery using Mithril.js and Lodash.",
+            "summary": "I learned to leverage React.js Backbone, and Underscore, as well as Moment.js while building a multi-source web calendar. Another project was a Video Gallery using Mithril.js (an FRP framework) and Lodash.",
             "highlights": [
                 "Single Page Application: Google Multi Calendar",
                 "Single Page Application: FIDM Video Gallery"
+            ]
+        },
+        {
+            "company": "Kinvey",
+            "position": "Front End Engineer",
+            "website": "http://kinvey.com",
+            "startDate": "2015-02-11",
+            "summary": "I'm learning how to build and maintain a high-traffic complex single page application using Ember.js and ember-data using TDD (test-driven-development).",
+            "highlights": [
+                "Ember.js Single Page Application",
+                "React-native iOS/Android mobile application"
             ]
         }
     ],
@@ -94,6 +105,8 @@
             "name": "MV* and Frameworks",
             "level": "Nerd",
             "keywords": [
+                "Ember.js",
+                "React-native",
                 "React.js",
                 "Mithril.js",
                 "Backbone.js",
@@ -117,10 +130,8 @@
         },
         {
             "name": "Backend",
-            "level": "some experience, learning",
+            "level": "Padawan",
             "keywords": [
-                "JSP",
-                "Java",
                 "node.js"
             ]
         }
@@ -129,6 +140,14 @@
         {
             "language": "English",
             "fluency": "Native speaker"
+        },
+        {
+            "language": "German",
+            "fluency": "Level 6 Duolingo"
+        },
+        {
+            "language": "Spanish",
+            "fluency": "Level 6 Duolingo"
         }
     ],
     "interests": [
