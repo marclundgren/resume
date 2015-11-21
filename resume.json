@@ -48,6 +48,7 @@
         "position": "Front End Developer",
         "website": "http://fidm.edu",
         "startDate": "2014-08-21",
+        "endDate": "2015-02-01",
         "summary": "I learned to leverage React.js Backbone, and Underscore, as well as Moment.js while building a multi-source web calendar. Another project was a Video Gallery using Mithril.js (an FRP framework) and Lodash.",
         "highlights": [
           "Single Page Application: Google Multi Calendar",
