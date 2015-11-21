@@ -1,0 +1,534 @@
+<!doctype html>
+<html>
+	<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+	
+	<title>Marc Lundgren</title>
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+	
+	<style type="text/css">
+	@import url(
+	https://fonts.googleapis.com/css?family=Lato:400,700
+);
+body {
+	background: #fff;
+	font-family: Lato, sans-serif;
+	margin: 0 0 80px;
+}
+a {
+	color: #2ecc71;
+}
+a:focus,
+a:hover {
+	color: #f1c40f;
+	text-decoration: none;
+}
+p {
+	line-height: 1.5;
+	margin: 0;
+}
+p + p {
+	margin-top: 10px;
+}
+h1,
+h2,
+h3,
+h4 {
+	margin-top: 0
+}
+section {
+	margin-top: 30px;
+}
+li {
+	line-height: 1.8;
+	list-style: none;
+}
+li:before {
+	content: "\f052";
+	float: left;
+	font: 13px Octicons;
+	margin-top: 6px;
+	margin-left: -20px;
+	opacity: .1;
+	position: absolute;
+}
+blockquote {
+	border-left: 5px solid #e7e9ec;
+	font-size: 14px;
+}
+em {
+	color: #95a5a6;
+	font-weight: normal;
+	font-style: normal;
+}
+h4 span:first-child {
+	color: #000;
+	font-weight: bold;
+}
+.container {
+	max-width: 750px;
+	padding: 0 30px;
+}
+.col-sm-6 {
+	margin-bottom: 10px;
+}
+.col-sm-12 h4 {
+	margin-top: 12px; 
+}
+.col-sm-12 + .col-sm-12 {
+	margin-top: 30px;
+}
+#header {
+	background: #f4f6f6;
+	padding: 50px 0;
+	margin-bottom: 30px;
+}
+#header h2 {
+	color: #95a5a6;
+	font-size: 24px;
+}
+#content h3 {
+	color: #f1c40f;
+	font-size: 26px;
+	margin-top: -4px;
+}
+#content aside {
+	text-align: right;
+	padding-right: 30px;
+}
+#profiles .network {
+	text-transform: capitalize;
+}
+#work .position,
+#volunteer .position {
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+#education .area {
+	font-weight: bold;
+}
+#education .area:before {
+	content: "\f0d7";
+	font: 16px Octicons;
+	margin-right: 6px;
+}
+#education .studyType {
+	margin-left: 25px;
+}
+#awards .summary,
+#publications .summary {
+	margin-top: 8px;
+}
+#publications .website a:before {
+	content: attr(href);
+}
+
+@media (min-width: 480px) {
+	.strike-through {
+		border-top: 1px solid #f4f6f6;
+		height: 20px;
+		margin-top: 12px;
+		margin-bottom: -2px;
+		position: relative;
+	}
+	.strike-through span,
+	.strike-through a {
+		background: #fff;
+		position: absolute;
+	}
+	.strike-through span:first-child {
+		padding-right: 20px;
+		margin-top: -12px;
+	}
+	.strike-through span + span {
+		font-size: 14px;
+		margin-top: -10px;
+		padding-left: 20px;
+		right: 0;
+	}
+}
+@media (max-width: 768px) {
+	.col-sm-6:last-child {
+		margin-bottom: 0px;
+	}
+	#content aside {
+		margin-bottom: 20px;
+		padding-right: 0;
+		text-align: left;
+	}
+	#publications .website a:before {
+		content: "View publication";
+	}
+}
+@media (max-width: 480px) {
+	h1 {
+		font-size: 26px;
+	}
+	.date {
+		font-size: 14px;
+		margin-bottom: 5px;
+	}
+	.strike-through span:first-child {
+		margin-bottom: 7px;
+	}
+	.strike-through span {
+		display: block;
+	}	
+	#header {
+		margin-bottom: 10px;
+		padding: 40px 0;
+	}
+	#actions {
+		display: none;
+	}
+}
+
+	</style>
+	
+	</head>
+	<body>
+	
+	<header id="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-9 col-sm-push-3">
+					<h1>
+						Marc Lundgren
+					</h1>
+					<h2>
+						Front End Software Engineer
+					</h2>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="content" class="container">
+
+	<section id="contact" class="row">
+		<aside class="col-sm-3">
+			<h3>Contact</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<strong>Email</strong>
+				<div class="email"><a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="701d1102131c051e141702151e425e4030171d11191c5e131f1d">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">
+/* <![CDATA[ */!function(){try{var t="currentScript"in document?document.currentScript:function(){for(var t=document.getElementsByTagName("script"),e=t.length;e--;)if(t[e].getAttribute("data-cfhash"))return t[e]}();if(t&&t.previousSibling){var e,r,n,i,c=t.previousSibling,a=c.getAttribute("data-cfemail");if(a){for(e="",r=parseInt(a.substr(0,2),16),n=2;a.length-n;n+=2)i=parseInt(a.substr(n,2),16)^r,e+=String.fromCharCode(i);e=document.createTextNode(e),c.parentNode.replaceChild(e,c)}t.parentNode.removeChild(t);}}catch(u){}}()/* ]]> */</script></div>
+			</div>
+			<div class="col-sm-6">
+				<strong>Website</strong>
+				<div class="website">
+					<a href="http://ilikerobots.me">http://ilikerobots.me</a>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	<section id="about" class="row">
+		<aside class="col-sm-3">
+			<h3>About</h3>
+		</aside>
+		<div class="col-sm-9">
+			<p>I&#x27;m a Front End Developer with almost 4 years of Front End Development experience.  Before that, I studied Computer Science and mastered Google AdWords advertising part-time during college. I&#x27;ve worked on teams large and small, international and domestic, from startups to large organizations. I enjoy traveling the world with my wife whenever an opportunity arises. I live near Los Angeles, CA, and feel most productive &amp; happy when either working remote or close to home.</p>
+		</div>
+	</section>
+	<section id="profiles" class="row">
+		<aside class="col-sm-3">
+			<h3>Profiles</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+				<div class="col-sm-6">
+					<strong class="network">
+						Github
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="http://github.com/marclundgren">marclundgren</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						Twitter
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://twitter.com/then_marc_says">then_marc_says</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						Codepen
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="http://codepen.io/marclundgren">marclundgren</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="work" class="row">
+		<aside class="col-sm-3">
+			<h3>Work</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Liferay</span>
+					<span class="date">
+						2012-02-22 — 2014-08-20
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://liferay.com">http://liferay.com</a>
+				</div>
+				<div class="position">
+					Front End Software Engineer
+				</div>
+				<div class="summary">
+					<p>I developed and contributed to the Liferay Portal and AlloyUI projects open-source projects. My code contributions typically came in the form of Javascript, CSS, Sass and JSP. Liferay UI Developers require knowledge of Bootstrap 2 and 3, as well as a deep understanding of YUI, an MVC framework similar to jQuery. Some of the tools and technology I learned to use at Liferay include Git, Sublime Text, Gulp, Grunt, Node, Ant, Bash/ZSH scripting, and MySQL.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Responsive Development</li>
+					<li class="bullet">Mobile First Design</li>
+					<li class="bullet">Accessibility</li>
+					<li class="bullet">HTML5 Multiple File Uploader</li>
+					<li class="bullet">Bootstrap 2 Implementation</li>
+					<li class="bullet">Bootstrap 3 Migration</li>
+					<li class="bullet">Platform Unit Testing</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>FIDM</span>
+					<span class="date">
+						2014-08-21 — 
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://fidm.edu">http://fidm.edu</a>
+				</div>
+				<div class="position">
+					Front End Developer
+				</div>
+				<div class="summary">
+					<p>I learned to leverage React.js Backbone, and Underscore, as well as Moment.js while building a multi-source web calendar. Another project was a Video Gallery using Mithril.js (an FRP framework) and Lodash.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Single Page Application: Google Multi Calendar</li>
+					<li class="bullet">Single Page Application: FIDM Video Gallery</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Kinvey</span>
+					<span class="date">
+						2015-02-11 — 
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://kinvey.com">http://kinvey.com</a>
+				</div>
+				<div class="position">
+					Front End Engineer
+				</div>
+				<div class="summary">
+					<p>I&#x27;m learning how to build and maintain a high-traffic complex single page application using Ember.js and ember-data using TDD (test-driven-development).</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Ember.js Single Page Application</li>
+					<li class="bullet">React-native iOS/Android mobile application</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	
+	<section id="education" class="row">
+		<aside class="col-sm-3">
+			<h3>Education</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>California State University of Fullerton</span>
+					<span class="date">
+						2007-06-15 — 2011-12-20
+					</span>
+				</h4>
+				<div class="area">
+					Computer Science
+				</div>
+				<div class="studyType">
+					Bachelor of Science
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	
+	
+	<section id="skills" class="row">
+		<aside class="col-sm-3">
+			<h3>Skills</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Web Development</h4>
+				</div>
+				<ul class="keywords">
+					<li>Javascript</li>
+					<li>HTML</li>
+					<li>CSS</li>
+					<li>SaSS</li>
+					<li>Responsive Design</li>
+					<li>Mobile First</li>
+					<li>REST</li>
+					<li>liferay</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>MV* and Frameworks</h4>
+				</div>
+				<ul class="keywords">
+					<li>Ember.js</li>
+					<li>React-native</li>
+					<li>React.js</li>
+					<li>Mithril.js</li>
+					<li>Backbone.js</li>
+					<li>Underscore.js</li>
+					<li>Bootstrap</li>
+					<li>jQuery</li>
+					<li>YUI</li>
+					<li>AlloyUI</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Tools</h4>
+				</div>
+				<ul class="keywords">
+					<li>git</li>
+					<li>Sublime Text</li>
+					<li>gulp</li>
+					<li>grunt</li>
+					<li>yeoman</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Backend</h4>
+				</div>
+				<ul class="keywords">
+					<li>node.js</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="languages" class="row">
+		<aside class="col-sm-3">
+			<h3>Languages</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>English</strong>
+				</div>
+				<div class="fluency">
+					Native speaker
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>German</strong>
+				</div>
+				<div class="fluency">
+					Level 6 Duolingo
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>Spanish</strong>
+				</div>
+				<div class="fluency">
+					Level 6 Duolingo
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="interests" class="row">
+		<aside class="col-sm-3">
+			<h3>Interests</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Aeronautics</h4>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Traveling</h4>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Crypto Currency</h4>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Music</h4>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="references" class="row">
+		<aside class="col-sm-3">
+			<h3>References</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<blockquote class="reference">
+					<p>Marc has passion and enthusiasm for what he does. After having worked with him for the past half year, I&#x27;ve come to see that personally. He has several traits that make him an asset for any company: excellent communication, team-oriented, proactive attitude, and innovative vision. It&#x27;s easy to see the drive he has in making improvements to whatever he&#x27;s working on, especially when discussing current projects in progress. There&#x27;s an intensity and focus that any company would benefit from.  He has an attitude that I believe is especially great for start-ups: the hunger to be part of something bigger than himself, that will ultimately benefit a larger group. His want to constantly improve on a product -- to bring innovation to something that already exists -- and to go one step further in creating something completely new sets him apart from drones in larger corporations. Having worked with him even ignited a new spark in me to want to do something greater, and I respect him for that. If anyone&#x27;s to be given a chance with a position, it&#x27;s Marc.</p>
+					<p class="name">
+						<strong>— Jane Kim</strong>
+					</p>
+				</blockquote>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	</div>
+	
+	</body>
+</html>
