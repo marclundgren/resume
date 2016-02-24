@@ -4,12 +4,12 @@
     "label": "Front End Software Engineer",
     "picture": "https://avatars0.githubusercontent.com/u/1154834",
     "email": "marclundgren2.0@gmail.com",
-    "website": "http://ilikerobots.me",
-    "summary": "I'm a Front End Developer with almost 4 years of Front End Development experience.  Before that, I studied Computer Science and mastered Google AdWords advertising part-time during college. I've worked on teams large and small, international and domestic, from startups to large organizations. I enjoy traveling the world with my wife whenever an opportunity arises. I live near Los Angeles, CA, and feel most productive & happy when either working remote or close to home.",
+    "website": "http://marclundgren.github.io",
+    "summary": "I'm a Front End Developer with 4 years of Front End Development experience. Before that, I studied Computer Science and mastered Google AdWords advertising part-time during college. I've worked on teams large and small, international and domestic, from startups to large organizations. I enjoy traveling the world with my wife whenever an opportunity arises. I live near Los Angeles, CA, and feel most productive & happy when either working remote with a great team or from an office close to home. I'm currently studying React + Redux and working on a few pet projects in my free time.",
     "location": {
       "address": "",
-      "postalCode": "CA 90802",
-      "city": "Los Angeles",
+      "postalCode": "CA 91709",
+      "city": "Chino Hills",
       "countryCode": "US",
       "region": "California"
     },
@@ -18,11 +18,6 @@
         "network": "Github",
         "username": "marclundgren",
         "url": "http://github.com/marclundgren"
-      },
-      {
-        "network": "Twitter",
-        "username": "then_marc_says",
-        "url": "https://twitter.com/then_marc_says"
       },
       {
         "network": "Codepen",
@@ -37,23 +32,26 @@
       "position": "Front End Engineer",
       "website": "http://kinvey.com",
       "startDate": "2015-02-11",
-      "summary": "I'm learning how to build and maintain a high-traffic complex single page application using Ember.js and ember-data using TDD (test-driven-development).",
+      "summary": "I'm learning how to build and maintain a high-traffic complex single page application using Ember.js and ember-data. remote, communication, agile start-up environment. I've worked on a React Native project to deliver a cloud-data backed personal identification app.",
       "highlights": [
         "Ember.js Single Page Application",
-        "React-native iOS/Android mobile application"
+        "React-native iOS/Android mobile application",
+        "Mocha",
+        "Chai",
+        "TDD"
       ]
     },
     {
-        "company": "FIDM",
-        "position": "Front End Developer",
-        "website": "http://fidm.edu",
-        "startDate": "2014-08-21",
-        "endDate": "2015-02-01",
-        "summary": "I learned to leverage React.js Backbone, and Underscore, as well as Moment.js while building a multi-source web calendar. Another project was a Video Gallery using Mithril.js (an FRP framework) and Lodash.",
-        "highlights": [
-          "Single Page Application: Google Multi Calendar",
-          "Single Page Application: FIDM Video Gallery"
-        ]
+      "company": "FIDM",
+      "position": "Front End Developer",
+      "website": "http://fidm.edu",
+      "startDate": "2014-08-21",
+      "endDate": "2015-02-01",
+      "summary": "I learned to leverage React.js Backbone, and Underscore, as well as Moment.js while building a multi-source web calendar. Another project was a Video Gallery using Mithril.js (an FRP framework) and Lodash.",
+      "highlights": [
+        "Single Page Application: Google Multi Calendar",
+        "Single Page Application: FIDM Video Gallery"
+      ]
     },
     {
       "company": "Liferay",
@@ -107,7 +105,7 @@
       "level": "Nerd",
       "keywords": [
         "Ember.js",
-        "React-native",
+        "React-Native",
         "React.js",
         "Mithril.js",
         "Backbone.js",
@@ -123,6 +121,7 @@
       "level": "Nerd",
       "keywords": [
         "git",
+        "Atom",
         "Sublime Text",
         "gulp",
         "grunt",
@@ -133,7 +132,8 @@
       "name": "Backend",
       "level": "Padawan",
       "keywords": [
-        "node.js"
+        "node.js",
+        "express"
       ]
     }
   ],
