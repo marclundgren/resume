@@ -5,13 +5,13 @@
     "picture": "https://avatars0.githubusercontent.com/u/1154834",
     "email": "marclundgren2.0@gmail.com",
     "website": "http://marclundgren.github.io",
-    "summary": "I'm a Front End Developer with 4 years of Front End Development experience. Before that, I studied Computer Science and mastered Google AdWords advertising part-time during college. I've worked on teams large and small, international and domestic, from startups to large organizations. I enjoy traveling the world with my wife whenever an opportunity arises. I live near Los Angeles, CA, and feel most productive & happy when either working remote with a great team or from an office close to home. I'm currently studying React + Redux and working on a few pet projects in my free time.",
+    "summary": "I'm a Front End Developer with 4.5 years of Front End Development experience. I studied Computer Science and mastered Google AdWords advertising part-time during college. I've worked on teams large and small, international and domestic, from startups to large organizations. I enjoy traveling the world with my wife whenever an opportunity arises. I live in Las Vegas, Nevada and feel most productive & happy when either working remote with a great team or from an office close to home. I'm currently studying React + Redux and working on a few pet projects in my free time.",
     "location": {
       "address": "",
-      "postalCode": "CA 91709",
-      "city": "Chino Hills",
+      "postalCode": "NV 89147",
+      "city": "Las Vegas",
       "countryCode": "US",
-      "region": "California"
+      "region": "Nevada"
     },
     "profiles": [
       {
@@ -32,7 +32,8 @@
       "position": "Front End Engineer",
       "website": "http://kinvey.com",
       "startDate": "2015-02-11",
-      "summary": "I'm learning how to build and maintain a high-traffic complex single page application using Ember.js and ember-data. remote, communication, agile start-up environment. I've worked on a React Native project to deliver a cloud-data backed personal identification app.",
+      "endDate": "2015-02-01",
+      "summary": "I learned how to build and maintain a high-traffic complex single page application using Ember.js and ember-data in a remote, agile start-up environment. I've worked on a React Native project to deliver a cloud-data backed personal identification app.",
       "highlights": [
         "Ember.js Single Page Application",
         "React-native iOS/Android mobile application",
@@ -59,7 +60,7 @@
       "website": "http://liferay.com",
       "startDate": "2012-02-22",
       "endDate": "2014-08-20",
-      "summary": "I developed and contributed to the Liferay Portal and AlloyUI projects open-source projects. My code contributions typically came in the form of Javascript, CSS, Sass and JSP. Liferay UI Developers require knowledge of Bootstrap 2 and 3, as well as a deep understanding of YUI, an MVC framework similar to jQuery. Some of the tools and technology I learned to use at Liferay include Git, Sublime Text, Gulp, Grunt, Node, Ant, Bash/ZSH scripting, and MySQL.",
+      "summary": "I developed and contributed to the Liferay Portal and AlloyUI projects open-source projects. My code contributions typically came in the form of JavaScript, CSS, Sass and JSP. Liferay UI Developers require knowledge of Bootstrap 2 and 3, as well as a deep understanding of YUI, an MVC framework similar to jQuery. Some of the tools and technology I learned to use at Liferay include Git, Sublime Text, Gulp, Grunt, Node, Ant, Bash/ZSH scripting, and MySQL.",
       "highlights": [
         "Responsive Development",
         "Mobile First Design",
@@ -90,7 +91,7 @@
       "name": "Web Development",
       "level": "Jedi",
       "keywords": [
-        "Javascript",
+        "JavaScript",
         "HTML",
         "CSS",
         "SaSS",
