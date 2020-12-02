@@ -1,17 +1,19 @@
 {
+  "meta": { "theme": "onepage" },
   "basics": {
     "name": "Marc Lundgren",
-    "label": "Front End Software Engineer",
+    "label": "Software Engineer",
+    "summary": "JavaScript nerd. TypeScript advocate. Serverless Cloud app builder. Dog lover.",
     "picture": "https://avatars0.githubusercontent.com/u/1154834",
-    "email": "marclundgren2.0@gmail.com",
+    "phone": "(626) 404-8552",
+    "email": "marcrlundgren@gmail.com",
     "website": "http://marclundgren.github.io",
-    "summary": "I'm a Front End Developer with 4.5 years of Front End Development experience. I studied Computer Science and mastered Google AdWords advertising part-time during college. I've worked on teams large and small, international and domestic, from startups to large organizations. I enjoy traveling the world with my wife whenever an opportunity arises. I live in Las Vegas, Nevada and feel most productive & happy when either working remote with a great team or from an office close to home. I'm currently studying React + Redux and working on a few pet projects in my free time.",
     "location": {
       "address": "",
-      "postalCode": "NV 89147",
-      "city": "Las Vegas",
+      "postalCode": "CA 92618",
+      "city": "Irvine",
       "countryCode": "US",
-      "region": "Nevada"
+      "region": "California"
     },
     "profiles": [
       {
@@ -28,18 +30,43 @@
   },
   "work": [
     {
-      "company": "Kinvey",
-      "position": "Front End Engineer",
-      "website": "http://kinvey.com",
-      "startDate": "2015-02-11",
-      "endDate": "2016-08-15",
-      "summary": "I learned how to build and maintain a high-traffic complex single page application using Ember.js and ember-data in a remote, agile start-up environment. I've worked on a React Native project to deliver a cloud-data backed personal identification app.",
+      "company": "Kareo",
+      "position": "Senior Front End Engineer (remote)",
+      "website": "http://kareo.com",
+      "startDate": "2019-11-11",
+      "summary": "",
       "highlights": [
-        "Ember.js Single Page Application",
-        "React-native iOS/Android mobile application",
-        "Mocha",
-        "Chai",
-        "TDD"
+        "Reduced Kareo's monolith application's build time by ~30%",
+        "Deployed a fully serverless AWS application, complete with CI/CD, build phases and deployment lifecycles",
+        "Implemented an Apple Pay, Google Pay Point-Of-Sale UI with Stripe payment integration",
+        "Introduced TypeScript capabilities for Kareo's UI monolith application"
+      ]
+    },
+    {
+      "company": "Rallio",
+      "position": "Senior Front End Engineer, Cloud Software Engineer",
+      "website": "http://rallio.com",
+      "startDate": "2017-09-27",
+      "endDate": "2019-11-08",
+      "summary": "",
+      "highlights": [
+        "Redesigned and re-architected Rallio's flagship monolith UI application",
+        "Architected, designed and implemented a AWS Fault-tolerant Data-integration application",
+        "Mentored junior UI developers"
+      ]
+    },
+    {
+      "company": "Kinvey",
+      "position": "Front End Engineer (remote)",
+      "website": "http://kinvey.com",
+      "startDate": "2015-09-11",
+      "endDate": "2016-08-15",
+      "summary": "",
+      "highlights": [
+        "Built and maintained a high-traffic complex single page application with Ember.js",
+        "Delivered a cloud-data backed identification cross-platform mobile app with React Native",
+        "Deployed and iterated in an agile start-up environment",
+        "Increased stability by introducing integration and acceptance tests for all Kinvey UIs"
       ]
     },
     {
@@ -48,10 +75,8 @@
       "website": "http://fidm.edu",
       "startDate": "2014-08-21",
       "endDate": "2015-02-01",
-      "summary": "I learned to leverage React.js Backbone, and Underscore, as well as Moment.js while building a multi-source web calendar. Another project was a Video Gallery using Mithril.js (an FRP framework) and Lodash.",
       "highlights": [
-        "Single Page Application: Google Multi Calendar",
-        "Single Page Application: FIDM Video Gallery"
+        "Designed and built two SPAs with React.js"
       ]
     },
     {
@@ -60,19 +85,14 @@
       "website": "http://liferay.com",
       "startDate": "2012-02-22",
       "endDate": "2014-08-20",
-      "summary": "I developed and contributed to the Liferay Portal and AlloyUI projects open-source projects. My code contributions typically came in the form of JavaScript, CSS, Sass and JSP. Liferay UI Developers require knowledge of Bootstrap 2 and 3, as well as a deep understanding of YUI, an MVC framework similar to jQuery. Some of the tools and technology I learned to use at Liferay include Git, Sublime Text, Gulp, Grunt, Node, Ant, Bash/ZSH scripting, and MySQL.",
       "highlights": [
-        "Responsive Development",
-        "Mobile First Design",
-        "Accessibility",
-        "HTML5 Multiple File Uploader",
-        "Bootstrap 2 Implementation",
-        "Bootstrap 3 Migration",
+        "Responsive, Mobile First Development",
+        "HTML5 Accessibility",
+        "Bootstrap 2 Implementation, Bootstrap 3 Migration",
         "Platform Unit Testing"
       ]
     }
   ],
-  "volunteer": [],
   "education": [
     {
       "institution": "California State University of Fullerton",
@@ -84,96 +104,13 @@
       "courses": []
     }
   ],
-  "awards": [],
-  "publications": [],
-  "skills": [
-    {
-      "name": "Web Development",
-      "level": "Jedi",
-      "keywords": [
-        "JavaScript",
-        "HTML",
-        "CSS",
-        "SaSS",
-        "Responsive Design",
-        "Mobile First",
-        "REST",
-        "liferay"
-      ]
-    },
-    {
-      "name": "MV* and Frameworks",
-      "level": "Nerd",
-      "keywords": [
-        "Ember.js",
-        "React-Native",
-        "React.js",
-        "Mithril.js",
-        "Backbone.js",
-        "Underscore.js",
-        "Bootstrap",
-        "jQuery",
-        "YUI",
-        "AlloyUI"
-      ]
-    },
-    {
-      "name": "Tools",
-      "level": "Nerd",
-      "keywords": [
-        "git",
-        "Atom",
-        "Sublime Text",
-        "gulp",
-        "grunt",
-        "yeoman"
-      ]
-    },
-    {
-      "name": "Backend",
-      "level": "Padawan",
-      "keywords": [
-        "node.js",
-        "express"
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Native speaker"
-    },
-    {
-      "language": "German",
-      "fluency": "Level 6 Duolingo"
-    },
-    {
-      "language": "Spanish",
-      "fluency": "Level 6 Duolingo"
-    }
-  ],
-  "interests": [
-    {
-      "name": "Aeronautics",
-      "keywords": []
-    },
-    {
-      "name": "Traveling",
-      "keywords": []
-    },
-    {
-      "name": "Crypto Currency",
-      "keywords": []
-    },
-    {
-      "name": "Music",
-      "keywords": []
-    }
-  ],
-  "references": [
-    {
-      "name": "Jane Kim",
-      "reference": "Marc has passion and enthusiasm for what he does. After having worked with him for the past half year, I've come to see that personally. He has several traits that make him an asset for any company: excellent communication, team-oriented, proactive attitude, and innovative vision. It's easy to see the drive he has in making improvements to whatever he's working on, especially when discussing current projects in progress. There's an intensity and focus that any company would benefit from.  He has an attitude that I believe is especially great for start-ups: the hunger to be part of something bigger than himself, that will ultimately benefit a larger group. His want to constantly improve on a product -- to bring innovation to something that already exists -- and to go one step further in creating something completely new sets him apart from drones in larger corporations. Having worked with him even ignited a new spark in me to want to do something greater, and I respect him for that. If anyone's to be given a chance with a position, it's Marc."
-    }
-  ]
+  "awards": [{
+    "title": "AWS Certified Cloud Practitioner",
+    "date": "2020-07-17",
+    "summary": "The AWS Certified Cloud Practitioner certification demonstrates an overall understanding of the AWS Cloud, independent of specific technical roles addressed by other AWS Certifications."
+  },
+  {
+    "title": "AWS Developer Associate Candidate",
+    "summary": "The AWS Certified Cloud Practitioner certification demonstrates proficiency in developing, deploying, and debugging cloud-based applications using AWS."
+  }]
 }
