@@ -1,5 +1,12 @@
 import React, { type ReactNode } from "preact/compat";
-import { useContext, useEffect, useState } from "preact/hooks";
+import {
+  useCallback,
+  useContext,
+  useEffect,
+  useMemo,
+  useRef,
+  useState,
+} from "preact/hooks";
 import { createContext } from "preact";
 
 interface QueryOptions<T> {
@@ -57,16 +64,25 @@ export function useQuery<T>(
     throw new Error("useQuery must be used within a QueryClientProvider");
   }
 
+  const queryClientRef = useRef(queryClient);
+  queryClientRef.current = queryClient;
+
   const [isPending, setIsPending] = useState<boolean>(true);
   const [error, setError] = useState<Error | null>(null);
   const [data, setData] = useState<T | null>(null);
+
+  const stringifiedQueryKey = JSON.stringify(queryKey);
+  const memoizedQueryFn = useCallback(queryFn, [queryFn]);
 
   useEffect(() => {
     const fetchData = async () => {
       setIsPending(true);
       setError(null);
       try {
-        const result = await queryClient.fetchData(queryKey, queryFn);
+        const result = await queryClientRef.current.fetchData(
+          queryKey,
+          memoizedQueryFn,
+        );
         setData(result);
       } catch (err) {
         setError(err instanceof Error ? err : new Error("An error occurred"));
@@ -76,7 +92,7 @@ export function useQuery<T>(
     };
 
     fetchData();
-  }, [queryClient, queryKey.join("-"), queryFn]);
+  }, [stringifiedQueryKey, memoizedQueryFn]);
 
   return { isPending, error, data };
 }

@@ -1,3 +1,4 @@
+import { useCallback } from "preact/hooks";
 import { ExperienceItem, ExperienceItemProps } from "./ExperienceItem.tsx";
 import { SkeletonLoader } from "../../components/SkeletonLoader.tsx";
 import {
@@ -8,11 +9,12 @@ import {
 } from "./hooks/useQuery.tsx";
 
 const _SectionExperience = () => {
+  const queryFn = useCallback(() =>
+    fetch("/api/experience")
+      .then(parseResponse<ExperienceItemProps[]>), []);
   const { isPending, error, data } = useQuery<ExperienceItemProps[]>({
     queryKey: ["experienceData"],
-    queryFn: () =>
-      fetch("/api/experience")
-        .then(parseResponse<ExperienceItemProps[]>),
+    queryFn,
   });
 
   if (isPending) return <SkeletonLoader />;
