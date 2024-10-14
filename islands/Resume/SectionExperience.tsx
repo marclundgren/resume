@@ -37,6 +37,51 @@ export const SectionExperience = () => (
         ]}
         technologies="React.js, TypeScript, AWS"
       />
+      <ExperienceItem
+        title="Senior Front End Engineer, Cloud Software Engineer"
+        company="Rallio"
+        period="Sep 2016 - Nov 2019"
+        responsibilities={[
+          "Redesigned and re-architected Rallio's flagship application",
+          "Architected, designed and implemented a AWS Fault-tolerant Data-integration application",
+          "Mentored junior UI developers",
+        ]}
+        technologies="Node.js, Ember.js, React.js, AWS"
+      />
+      <ExperienceItem
+        title="Front End Engineer (remote)"
+        company="Kinvey"
+        period="Sep 2015 - Aug 2016"
+        responsibilities={[
+          "Built and maintained a high-traffic complex single page application",
+          "Delivered a cloud-data backed identification cross-platform mobile app",
+          "Deployed and iterated in an agile start-up environment",
+          "Increased stability by introducing integration and acceptance tests for all Kinvey UIs",
+        ]}
+        technologies="Node.js, Ember.js, Google Firebase"
+      />
+      <ExperienceItem
+        title="Front End Developer"
+        company="FIDM"
+        period="Aug 2014 - Feb 2015"
+        responsibilities={[
+          "Designed and built two Single Page Applications with React.js",
+        ]}
+        technologies="React.js, Mithril.js"
+      />
+      <ExperienceItem
+        title="Front End Software Engineer"
+        company="Liferay"
+        period="Feb 2012 - Aug 2014"
+        responsibilities={[
+          "Open Source Development",
+          "Responsive, Mobile First Development",
+          "HTML5",
+          "Accessibility",
+          "Bootstrap 2 Implementation",
+        ]}
+        technologies="HTML5, CSS3, JavaScript, Bootstrap"
+      />
     </div>
   </section>
 );
