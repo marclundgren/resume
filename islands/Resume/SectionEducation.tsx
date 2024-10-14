@@ -7,6 +7,7 @@ export const SectionEducation = () => (
       <h3 className="text-lg font-semibold">
         California State University of Fullerton
       </h3>
+      {/* TODO move this into a hook with useQuery */}
       <p className="text-gray-600">Jun 2007 - Dec 2011</p>
       <p className="text-gray-700">Bachelor of Science - Computer Science</p>
     </div>
