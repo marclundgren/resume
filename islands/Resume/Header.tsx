@@ -13,13 +13,6 @@ export const Header = () => (
         >
           github.com/marclundgren
         </a>
-        <span className="mx-2 h-4 w-px bg-gray-300"></span>
-        <a
-          href="https://codepen.com/marclundgren"
-          className="text-blue-600 hover:text-blue-800 underline"
-        >
-          codepen.com/marclundgren
-        </a>
       </p>
     </div>
   </header>
