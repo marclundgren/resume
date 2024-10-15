@@ -3,6 +3,9 @@ import { Header } from "./Header.tsx";
 import { SectionCertifications } from "./SectionCertifications.tsx";
 import { SectionEducation } from "./SectionEducation.tsx";
 import { SectionExperience } from "./SectionExperience.tsx";
+import { QueryClient, QueryClientProvider } from "./hooks/useQuery.tsx";
+
+const queryClient = new QueryClient();
 
 const Resume = () => {
   const contentRef = useRef<HTMLDivElement>(null);
@@ -22,9 +25,11 @@ const Resume = () => {
         <div ref={contentRef}>
           <main className="p-8 bg-white shadow-lg">
             <Header />
-            <SectionExperience />
-            <SectionEducation />
-            <SectionCertifications />
+            <QueryClientProvider client={queryClient}>
+              <SectionExperience />
+              <SectionEducation />
+              <SectionCertifications />
+            </QueryClientProvider>
           </main>
         </div>
       </div>
