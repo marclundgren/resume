@@ -4,6 +4,7 @@
 
 import * as $_404 from "./routes/_404.tsx";
 import * as $_app from "./routes/_app.tsx";
+import * as $api_education from "./routes/api/education.ts";
 import * as $api_experience from "./routes/api/experience.ts";
 import * as $index from "./routes/index.tsx";
 import * as $Resume_ExperienceItem from "./islands/Resume/ExperienceItem.tsx";
@@ -19,6 +20,7 @@ const manifest = {
   routes: {
     "./routes/_404.tsx": $_404,
     "./routes/_app.tsx": $_app,
+    "./routes/api/education.ts": $api_education,
     "./routes/api/experience.ts": $api_experience,
     "./routes/index.tsx": $index,
   },
