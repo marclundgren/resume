@@ -28,7 +28,7 @@ const Resume = () => {
           </main>
         </div>
       </div>
-      <footer className="pt-4 pb-4 mt-4 mb-4 text-center text-gray-500 text-sm">
+      <footer className="pt-4 pb-4 text-center text-gray-500 text-sm">
         Built with{" "}
         <a href="https://deno.land" className="text-blue-600 hover:underline">
           Deno
