@@ -1,11 +1,6 @@
 import { useCallback } from "preact/hooks";
 import { SkeletonLoader } from "../../components/SkeletonLoader.tsx";
-import {
-  parseResponse,
-  QueryClient,
-  QueryClientProvider,
-  useQuery,
-} from "./hooks/useQuery.tsx";
+import { parseResponse, useQuery } from "./hooks/useQuery.tsx";
 
 type EducationItemProps = {
   school: string;
@@ -13,7 +8,7 @@ type EducationItemProps = {
   period: string;
 };
 
-export const _SectionEducation = () => {
+export const SectionEducation = () => {
   const queryFn = useCallback(() =>
     fetch("/api/education")
       .then(parseResponse<EducationItemProps[]>), []);
@@ -42,10 +37,3 @@ export const _SectionEducation = () => {
     </section>
   );
 };
-
-const queryClient = new QueryClient();
-export const SectionEducation = () => (
-  <QueryClientProvider client={queryClient}>
-    <_SectionEducation />
-  </QueryClientProvider>
-);

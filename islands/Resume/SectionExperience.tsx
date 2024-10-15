@@ -1,14 +1,9 @@
 import { useCallback } from "preact/hooks";
 import { ExperienceItem, ExperienceItemProps } from "./ExperienceItem.tsx";
 import { SkeletonLoader } from "../../components/SkeletonLoader.tsx";
-import {
-  parseResponse,
-  QueryClient,
-  QueryClientProvider,
-  useQuery,
-} from "./hooks/useQuery.tsx";
+import { parseResponse, useQuery } from "./hooks/useQuery.tsx";
 
-const _SectionExperience = () => {
+export const SectionExperience = () => {
   const queryFn = useCallback(() =>
     fetch("/api/experience")
       .then(parseResponse<ExperienceItemProps[]>), []);
@@ -38,14 +33,5 @@ const _SectionExperience = () => {
         ))}
       </div>
     </section>
-  );
-};
-
-const queryClient = new QueryClient();
-export const SectionExperience = () => {
-  return (
-    <QueryClientProvider client={queryClient}>
-      <_SectionExperience />
-    </QueryClientProvider>
   );
 };
