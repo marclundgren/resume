@@ -33,6 +33,19 @@ const Resume = () => {
           </main>
         </div>
       </div>
+      <footer className="pt-4 pb-4 text-center text-gray-500 text-sm">
+        Built with{" "}
+        <a href="https://deno.land" className="text-blue-600 hover:underline">
+          Deno
+        </a>{" "}
+        and{" "}
+        <a
+          href="https://fresh.deno.dev"
+          className="text-blue-600 hover:underline"
+        >
+          Fresh
+        </a>
+      </footer>
     </div>
   );
 };
