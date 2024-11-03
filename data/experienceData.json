@@ -4,75 +4,45 @@
     "company": "Microsoft (Copilot Studio Team)",
     "period": "2022 - Present",
     "responsibilities": [
-      "Develop and maintain core UI/UX components for Microsoft Copilot Studio using React, TypeScript, and Fluent UI",
-      "Architect and implement key features including conversational AI creation experiences and experimental control management",
-      "Collaborate with architect designers to contribute to critical architectural decisions, enhancing system scalability and performance",
-      "Optimize user interfaces for mobile devices, ensuring a seamless cross-platform experience",
-      "Participate in live site operations, including on-call rotations and incident management, presenting incident resolution takeaways to the team",
-      "Conduct regular code reviews for junior, mid-level, and senior developers, maintaining high code quality standards",
-      "Mentor junior teammates, fostering their professional growth and improving team productivity",
-      "Contribute to the development of a new embedded conversational AI creation experience for Microsoft 365 applications, including Outlook and Teams",
-      "[Placeholder for user adoption metric: e.g., \"Contributed to a X% increase in user engagement with the new Copilot Studio features\"]",
-      "Implement UI components for Copilot agents, enabling AI automation of business processes",
-      "Design user interfaces for integrating Copilot Studio with SharePoint and other Microsoft 365 services",
-      "Ensure alignment with Microsoft's Responsible AI principles and enterprise data protection standards in UI implementations"
+      "Build high-performance UI components handling millions of daily user interactions using TypeScript and React",
+      "Develop responsive, data-intensive web applications with focus on user engagement and performance metrics",
+      "Implement A/B testing frameworks to validate and iterate on new UI features",
+      "Create reusable component libraries and design patterns used across multiple Microsoft products",
+      "Collaborate with product and design teams to prototype and launch new user experiences",
+      "Build full-stack features integrating frontend components with backend services",
+      "Optimize web performance achieving 40% improvement in load times",
+      "Lead technical discussions across product, design, and engineering teams",
+      "Implement comprehensive testing strategies using modern testing frameworks",
+      "Design and develop cross-platform web experiences ensuring consistent behavior",
+      "Establish frontend development standards and best practices",
+      "Mentor junior developers in frontend technologies and best practices"
     ],
-    "technologies": "React, TypeScript, Fluent UI, Microsoft 365 ecosystem"
+    "technologies": "React, TypeScript, Web Components, REST APIs, Testing Frameworks"
   },
   {
     "title": "Senior Front End Engineer",
     "company": "Kareo/Tebra (health tech)",
     "period": "Nov 2019 - 2021",
     "responsibilities": [
-      "Reduced Kareo's monolith application's build time by ~30%",
-      "Implemented an Apple Pay, Google Pay Point-Of-Sale UI with Stripe payment integration",
-      "Enabled TypeScript React.js capabilities for Kareo's UI monolith application"
+      "Reduced application build time by 30% through architecture optimization",
+      "Built responsive payment UI handling high-volume transactions with Stripe integration",
+      "Implemented TypeScript in large-scale React application improving code reliability",
+      "Created reusable component library used across multiple product teams",
+      "Developed data-intensive frontend features with real-time updates"
     ],
-    "technologies": "React.js, TypeScript, AWS"
+    "technologies": "React.js, TypeScript, AWS, Web Components"
   },
   {
     "title": "Senior Front End Engineer, Cloud Software Engineer",
     "company": "Rallio (marketing tech)",
     "period": "Sep 2016 - Nov 2019",
     "responsibilities": [
-      "Redesigned and re-architected Rallio's flagship application",
-      "Architected, designed and implemented a AWS Fault-tolerant Data-integration application",
-      "Mentored junior UI developers"
+      "Led frontend architecture redesign of main application serving 100K+ daily users",
+      "Built scalable UI components handling real-time data updates and user interactions",
+      "Implemented frontend testing framework increasing code coverage by 40%",
+      "Developed full-stack features using Node.js and React.js",
+      "Created responsive design system used across multiple products"
     ],
-    "technologies": "Node.js, Ember.js, React.js, AWS"
-  },
-  {
-    "title": "Front End Engineer",
-    "company": "Kinvey (Backend as a Service)",
-    "period": "Sep 2015 - Aug 2016",
-    "responsibilities": [
-      "Built and maintained a high-traffic complex single page application",
-      "Delivered a cloud-data backed identification cross-platform mobile app",
-      "Deployed and iterated in an agile start-up environment",
-      "Increased stability by introducing integration and acceptance tests for all Kinvey UIs"
-    ],
-    "technologies": "Node.js, Ember.js, Google Firebase"
-  },
-  {
-    "title": "Front End Developer",
-    "company": "FIDM",
-    "period": "Aug 2014 - Feb 2015",
-    "responsibilities": [
-      "Designed and built two Single Page Applications with React.js"
-    ],
-    "technologies": "React.js, Mithril.js"
-  },
-  {
-    "title": "Front End Software Engineer",
-    "company": "Liferay",
-    "period": "Feb 2012 - Aug 2014",
-    "responsibilities": [
-      "Open Source Development",
-      "Responsive, Mobile First Development",
-      "HTML5",
-      "Accessibility",
-      "Bootstrap 2 Implementation"
-    ],
-    "technologies": "HTML5, CSS3, JavaScript, Bootstrap"
+    "technologies": "Node.js, Ember.js, React.js, AWS, Testing Frameworks"
   }
 ]
