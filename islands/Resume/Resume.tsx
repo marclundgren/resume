@@ -15,15 +15,35 @@ const Resume = () => {
 
   return (
     <div className="bg-gray-50 min-h-screen font-sans text-gray-800">
-      <div className="container mx-auto px-4 py-8 max-w-3xl">
+      <style>
+        {`
+          @media print {
+            .no-print {
+              display: none !important;
+            }
+            .print-container {
+              margin: 0;
+              padding: 0;
+            }
+            .print-content {
+              box-shadow: none !important;
+              padding: 0 !important;
+            }
+            @page {
+              margin: 0.5in;
+            }
+          }
+        `}
+      </style>
+      <div className="container mx-auto px-4 py-8 max-w-3xl print-container">
         <button
           onClick={handlePrint}
-          className="mb-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+          className="mb-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded no-print"
         >
           Export to PDF
         </button>
         <div ref={contentRef}>
-          <main className="p-8 bg-white shadow-lg">
+          <main className="p-8 bg-white shadow-lg print-content">
             <Header />
             <QueryClientProvider client={queryClient}>
               <SectionExperience />
@@ -33,7 +53,7 @@ const Resume = () => {
           </main>
         </div>
       </div>
-      <footer className="pt-4 pb-4 text-center text-gray-500 text-sm">
+      <footer className="pt-4 pb-4 text-center text-gray-500 text-sm no-print">
         Built with{" "}
         <a href="https://deno.land" className="text-blue-600 hover:underline">
           Deno
