@@ -29,7 +29,6 @@ export const SectionEducation = () => {
         {data.map((education, index) => (
           <div key={index}>
             <h3 className="text-lg font-semibold">{education.school}</h3>
-            <p className="text-gray-600">{education.period}</p>
             <p className="text-gray-700">{education.degree}</p>
           </div>
         ))}
