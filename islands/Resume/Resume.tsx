@@ -1,4 +1,4 @@
-import { useRef } from "preact/hooks";
+import { useCallback } from "preact/hooks";
 import { Header } from "./Header.tsx";
 import { SectionCertifications } from "./SectionCertifications.tsx";
 import { SectionEducation } from "./SectionEducation.tsx";
@@ -8,33 +8,12 @@ import { QueryClient, QueryClientProvider } from "./hooks/useQuery.tsx";
 const queryClient = new QueryClient();
 
 const Resume = () => {
-  const contentRef = useRef<HTMLDivElement>(null);
-  const handlePrint = () => {
+  const handlePrint = useCallback(() => {
     globalThis.print();
-  };
+  }, []);
 
   return (
     <div className="bg-gray-50 min-h-screen font-sans text-gray-800">
-      <style>
-        {`
-          @media print {
-            .no-print {
-              display: none !important;
-            }
-            .print-container {
-              margin: 0;
-              padding: 0;
-            }
-            .print-content {
-              box-shadow: none !important;
-              padding: 0 !important;
-            }
-            @page {
-              margin: 0.5in;
-            }
-          }
-        `}
-      </style>
       <div className="container mx-auto px-4 py-8 max-w-3xl print-container">
         <button
           onClick={handlePrint}
@@ -42,7 +21,7 @@ const Resume = () => {
         >
           Export to PDF
         </button>
-        <div ref={contentRef}>
+        <div>
           <main className="p-8 bg-white shadow-lg print-content">
             <Header />
             <QueryClientProvider client={queryClient}>
