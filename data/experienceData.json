@@ -44,39 +44,5 @@
       "Established technical best practices across multiple engineering teams"
     ],
     "technologies": "Node.js, React.js, Distributed Systems, Caching Strategies"
-  },
-  {
-    "title": "Front End Engineer",
-    "company": "Kinvey (Backend as a Service)",
-    "period": "Sep 2015 - Aug 2016",
-    "responsibilities": [
-      "Built and maintained a high-traffic complex single page application",
-      "Delivered a cloud-data backed identification cross-platform mobile app",
-      "Deployed and iterated in an agile start-up environment",
-      "Increased stability by introducing integration and acceptance tests for all Kinvey UIs"
-    ],
-    "technologies": "Node.js, Ember.js, Google Firebase"
-  },
-  {
-    "title": "Front End Developer",
-    "company": "FIDM",
-    "period": "Aug 2014 - Feb 2015",
-    "responsibilities": [
-      "Designed and built two Single Page Applications with React.js"
-    ],
-    "technologies": "React.js, Mithril.js"
-  },
-  {
-    "title": "Front End Software Engineer",
-    "company": "Liferay",
-    "period": "Feb 2012 - Aug 2014",
-    "responsibilities": [
-      "Open Source Development",
-      "Responsive, Mobile First Development",
-      "HTML5",
-      "Accessibility",
-      "Bootstrap 2 Implementation"
-    ],
-    "technologies": "HTML5, CSS3, JavaScript, Bootstrap"
   }
 ]
