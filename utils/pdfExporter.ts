@@ -83,7 +83,7 @@ export class PDFExporter {
         }
         
         // Calculate the portion of the image to include
-        let sourceY = position / scale;
+        const sourceY = position / scale;
         let currentPageHeight = Math.min(pageHeight / scale, imgHeight - sourceY);
         
         // If this isn't the last page and we're not at the very beginning,
