@@ -61,7 +61,7 @@ export class PDFExporter {
     const scaledHeight = imgHeight * scale;
     
     // Create PDF with appropriate orientation
-    const orientation = scaledHeight > a4Height ? "portrait" : "portrait";
+    const orientation = scaledHeight > a4Height ? "portrait" : "landscape";
     const pdf = new jsPDF(orientation, "pt", "a4");
     
     // If content is taller than A4, we might need multiple pages
