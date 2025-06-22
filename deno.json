@@ -28,7 +28,7 @@
     "@preact/signals-core": "https://esm.sh/*@preact/signals-core@1.5.1",
     "@tanstack/react-query": "npm:@tanstack/react-query@^5.59.13",
     "html2canvas": "https://esm.sh/html2canvas@1.4.1",
-    "jspdf": "https://esm.sh/jspdf@2.5.1",
+    "jspdf": "https://esm.sh/jspdf@1.5.3",
     "preact": "https://esm.sh/preact@10.22.0",
     "preact/": "https://esm.sh/preact@10.22.0/",
     "tailwindcss": "npm:tailwindcss@3.4.1",

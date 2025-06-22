@@ -48,7 +48,8 @@ export class PDFExporter {
   ): Promise<void> {
     // Dynamic import to avoid server-side execution
     console.log("Loading jsPDF...");
-    const { default: jsPDF } = await import("jspdf");
+    const jsPDFModule = await import("jspdf");
+    const jsPDF = jsPDFModule.default || jsPDFModule.jsPDF;
     console.log("jsPDF loaded successfully");
     const imgData = canvas.toDataURL("image/png", 1.0);
     
@@ -66,12 +67,14 @@ export class PDFExporter {
     
     // Create PDF with appropriate orientation
     const orientation = scaledHeight > a4Height ? "portrait" : "landscape";
+    // @ts-ignore: jsPDF constructor
     const pdf = new jsPDF(orientation, "pt", "a4");
     
     // If content is taller than A4, we might need multiple pages
     if (scaledHeight > a4Height) {
       let position = 0;
       const pageHeight = a4Height;
+      const margin = 40; // Margin to avoid cutting headers
       
       while (position < scaledHeight) {
         // Add page if not the first page
@@ -80,14 +83,20 @@ export class PDFExporter {
         }
         
         // Calculate the portion of the image to include
-        const sourceY = position / scale;
-        const sourceHeight = Math.min(pageHeight / scale, imgHeight - sourceY);
+        let sourceY = position / scale;
+        let currentPageHeight = Math.min(pageHeight / scale, imgHeight - sourceY);
+        
+        // If this isn't the last page and we're not at the very beginning,
+        // reduce the page height slightly to avoid cutting headers
+        if (position > 0 && (position + pageHeight) < scaledHeight) {
+          currentPageHeight = Math.min((pageHeight - margin) / scale, imgHeight - sourceY);
+        }
         
         // Create a temporary canvas for this page
         const pageCanvas = document.createElement("canvas");
         const pageCtx = pageCanvas.getContext("2d")!;
         pageCanvas.width = imgWidth;
-        pageCanvas.height = sourceHeight;
+        pageCanvas.height = currentPageHeight;
         
         // Draw the portion of the original canvas
         pageCtx.drawImage(
@@ -95,11 +104,11 @@ export class PDFExporter {
           0,
           sourceY,
           imgWidth,
-          sourceHeight,
+          currentPageHeight,
           0,
           0,
           imgWidth,
-          sourceHeight,
+          currentPageHeight,
         );
         
         const pageImgData = pageCanvas.toDataURL("image/png", 1.0);
@@ -109,10 +118,10 @@ export class PDFExporter {
           0,
           0,
           a4Width,
-          sourceHeight * scale,
+          currentPageHeight * scale,
         );
         
-        position += pageHeight;
+        position += (currentPageHeight * scale);
       }
     } else {
       // Single page - center the content
