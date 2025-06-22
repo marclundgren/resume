@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(deno install:*)",
+      "Bash(deno task:*)"
+    ],
+    "deny": []
+  }
+}

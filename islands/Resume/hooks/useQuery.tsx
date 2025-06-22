@@ -1,9 +1,8 @@
-import React, { type ReactNode } from "preact/compat";
+import { type ReactNode } from "preact/compat";
 import {
   useCallback,
   useContext,
   useEffect,
-  useMemo,
   useRef,
   useState,
 } from "preact/hooks";
