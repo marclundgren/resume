@@ -48,7 +48,7 @@ export class PDFExporter {
   ): Promise<void> {
     // Dynamic import to avoid server-side execution
     console.log("Loading jsPDF...");
-    const { default: jsPDF } = await import("https://esm.sh/jspdf@2.5.1");
+    const { default: jsPDF } = await import("jspdf");
     console.log("jsPDF loaded successfully");
     const imgData = canvas.toDataURL("image/png", 1.0);
     
@@ -71,7 +71,7 @@ export class PDFExporter {
     // If content is taller than A4, we might need multiple pages
     if (scaledHeight > a4Height) {
       let position = 0;
-      let pageHeight = a4Height;
+      const pageHeight = a4Height;
       
       while (position < scaledHeight) {
         // Add page if not the first page
