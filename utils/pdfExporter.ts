@@ -1,7 +1,4 @@
-// @ts-ignore: Import from ESM
-import html2canvas from "https://esm.sh/html2canvas@1.4.1";
-// @ts-ignore: Import from ESM
-import jsPDF from "https://esm.sh/jspdf@2.5.1";
+// Dynamic imports to avoid server-side execution
 
 export interface PDFExportOptions {
   element: HTMLElement;
@@ -16,6 +13,9 @@ export class PDFExporter {
     options: { quality?: number; scale?: number } = {},
   ): Promise<HTMLCanvasElement> {
     const { quality = 2, scale = 2 } = options;
+    
+    // Dynamic import to avoid server-side execution
+    const { default: html2canvas } = await import("https://esm.sh/html2canvas@1.4.1");
     
     return await html2canvas(element, {
       scale,
@@ -40,10 +40,12 @@ export class PDFExporter {
     });
   }
 
-  private static createPDFFromCanvas(
+  private static async createPDFFromCanvas(
     canvas: HTMLCanvasElement,
     filename: string,
-  ): void {
+  ): Promise<void> {
+    // Dynamic import to avoid server-side execution
+    const { default: jsPDF } = await import("https://esm.sh/jspdf@2.5.1");
     const imgData = canvas.toDataURL("image/png", 1.0);
     
     // Calculate dimensions for A4 page
@@ -134,7 +136,7 @@ export class PDFExporter {
       const canvas = await this.captureElement(element, { quality, scale });
       
       // Create and download the PDF
-      this.createPDFFromCanvas(canvas, filename);
+      await this.createPDFFromCanvas(canvas, filename);
       
       console.log("PDF generated successfully!");
     } catch (error) {
