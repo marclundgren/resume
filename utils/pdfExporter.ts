@@ -15,7 +15,9 @@ export class PDFExporter {
     const { quality = 2, scale = 2 } = options;
     
     // Dynamic import to avoid server-side execution
+    console.log("Loading html2canvas...");
     const { default: html2canvas } = await import("https://esm.sh/html2canvas@1.4.1");
+    console.log("html2canvas loaded successfully");
     
     return await html2canvas(element, {
       scale,
@@ -45,7 +47,9 @@ export class PDFExporter {
     filename: string,
   ): Promise<void> {
     // Dynamic import to avoid server-side execution
+    console.log("Loading jsPDF...");
     const { default: jsPDF } = await import("https://esm.sh/jspdf@2.5.1");
+    console.log("jsPDF loaded successfully");
     const imgData = canvas.toDataURL("image/png", 1.0);
     
     // Calculate dimensions for A4 page
@@ -131,16 +135,24 @@ export class PDFExporter {
     try {
       // Show loading state (you might want to add a loading indicator)
       console.log("Generating PDF...");
+      console.log("Element dimensions:", element.scrollWidth, "x", element.scrollHeight);
       
       // Capture the element as a canvas
+      console.log("Capturing element...");
       const canvas = await this.captureElement(element, { quality, scale });
+      console.log("Canvas created:", canvas.width, "x", canvas.height);
       
       // Create and download the PDF
+      console.log("Creating PDF...");
       await this.createPDFFromCanvas(canvas, filename);
       
       console.log("PDF generated successfully!");
     } catch (error) {
-      console.error("Error generating PDF:", error);
+      console.error("Detailed error:", error);
+      if (error instanceof Error) {
+        console.error("Error message:", error.message);
+        console.error("Error stack:", error.stack);
+      }
       throw new Error("Failed to generate PDF. Please try again.");
     }
   }
