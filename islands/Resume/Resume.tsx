@@ -43,6 +43,7 @@ const Resume = () => {
       <div className="container mx-auto px-4 py-8 max-w-3xl print-container">
         <div className="mb-4 flex gap-2 no-print">
           <button
+            type="button"
             onClick={handleExportToPDF}
             disabled={isGeneratingPDF}
             className={`bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition-colors ${
@@ -52,6 +53,7 @@ const Resume = () => {
             {isGeneratingPDF ? "Generating PDF..." : "Export to PDF"}
           </button>
           <button
+            type="button"
             onClick={handlePrint}
             className="bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded transition-colors"
           >
@@ -59,7 +61,7 @@ const Resume = () => {
           </button>
         </div>
         <div>
-          <main 
+          <main
             ref={resumeRef}
             className="p-8 bg-white shadow-lg print-content"
           >
