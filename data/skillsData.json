@@ -1,0 +1,52 @@
+{
+  "summary": [
+    "Senior Front End Engineer with 10+ years building scalable, reliable React/TypeScript applications",
+    "Health tech experience delivering secure, compliant user experiences and internal tooling",
+    "Focus on quality, testing strategy, performance, and cross-functional collaboration"
+  ],
+  "skills": [
+    {
+      "category": "Front End",
+      "items": [
+        "React",
+        "TypeScript",
+        "Next.js",
+        "HTML5/CSS3",
+        "Tailwind CSS",
+        "GraphQL",
+        "REST"
+      ]
+    },
+    {
+      "category": "Testing & Quality",
+      "items": [
+        "Unit & Integration Testing",
+        "E2E Testing",
+        "Jest",
+        "Playwright/Cypress",
+        "Testing Library",
+        "Accessibility (a11y)"
+      ]
+    },
+    {
+      "category": "DevEx & CI/CD",
+      "items": [
+        "GitHub Actions",
+        "Code Review & Architectural Design",
+        "Storybook (component driven UIs)",
+        "Monorepo practices"
+      ]
+    },
+    {
+      "category": "Ops & Observability",
+      "items": [
+        "Monitoring & Alerting",
+        "Logging & Tracing",
+        "Performance Profiling",
+        "Datadog (familiarity)",
+        "AWS (general familiarity)",
+        "Kubernetes (general familiarity)"
+      ]
+    }
+  ]
+}
