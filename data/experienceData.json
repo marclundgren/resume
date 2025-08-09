@@ -6,18 +6,15 @@
     "responsibilities": [
       "Lead development of new product features from concept to launch for enterprise customers",
       "Build scalable React/TypeScript applications handling millions of daily user interactions",
-      "Design and implement GraphQL APIs ensuring optimal frontend performance",
       "Mentor junior engineers while establishing frontend development standards",
       "Drive technical discussions with product and design teams in remote environment",
-      "Architect distributed caching solutions improving application response time by 45%",
       "Launch new features through rapid prototyping and iterative development",
       "Implement comprehensive testing strategies ensuring 99.9% reliability",
       "Lead cross-functional initiatives to improve developer workflows and tooling",
       "Build innovative solutions for enterprise customers with focus on scalability",
-      "Establish best practices for code quality and technical documentation",
-      "Create reusable component libraries used across multiple product teams"
+      "Establish best practices for code quality and technical documentation"
     ],
-    "technologies": "React, TypeScript, GraphQL, REST APIs, Distributed Systems"
+    "technologies": "React, TypeScript, Distributed Systems"
   },
   {
     "title": "Senior Front End Engineer",
