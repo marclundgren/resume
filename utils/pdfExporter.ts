@@ -12,11 +12,11 @@ export class PDFExporter {
     element: HTMLElement,
     options: { quality?: number; scale?: number } = {},
   ): Promise<HTMLCanvasElement> {
-    const { quality: _quality = 2, scale = 2 } = options;
+  const { quality = 2, scale = 2 } = options;
 
-    // Dynamic import to avoid server-side execution
-    console.log("Loading html2canvas...");
-    const { default: html2canvas } = await import("html2canvas");
+  // Dynamic import to avoid server-side execution
+  console.log("Loading html2canvas...");
+  const { default: html2canvas } = await import("html2canvas");
     console.log("html2canvas loaded successfully");
 
     return await html2canvas(element, {
