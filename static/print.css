@@ -11,13 +11,13 @@
   .no-print {
     display: none !important;
   }
-  
+
   /* Container adjustments */
   .print-container {
     margin: 0;
     padding: 0;
   }
-  
+
   /* Content adjustments */
   .print-content {
     box-shadow: none !important;
