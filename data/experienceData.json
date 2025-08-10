@@ -4,43 +4,40 @@
     "company": "Microsoft (Copilot Studio Team)",
     "period": "2022 - Present",
     "responsibilities": [
-      "Lead development of new product features from concept to launch for enterprise customers",
-      "Build scalable React/TypeScript applications handling millions of daily user interactions",
-      "Mentor junior engineers while establishing frontend development standards",
-      "Drive technical discussions with product and design teams in remote environment",
-      "Launch new features through rapid prototyping and iterative development",
-      "Implement comprehensive testing strategies ensuring 99.9% reliability",
-      "Lead cross-functional initiatives to improve developer workflows and tooling",
-      "Build innovative solutions for enterprise customers with focus on scalability",
-      "Establish best practices for code quality and technical documentation"
+      "Develop and maintain core UI/UX components for Microsoft Copilot Studio using React, TypeScript, and Fluent UI",
+      "Architect and implement key features including conversational AI creation experiences and experimental control management",
+      "Collaborate with architect designers to contribute to critical architectural decisions, enhancing system scalability and performance",
+      "Optimize user interfaces for mobile devices, ensuring a seamless cross-platform experience",
+      "Participate in live site operations, including on-call rotations and incident management, presenting incident resolution takeaways to the team",
+      "Conduct regular code reviews for junior, mid-level, and senior developers, maintaining high code quality standards",
+      "Mentor junior teammates, fostering their professional growth and improving team productivity",
+      "Contribute to the development of a new embedded conversational AI creation experience for Microsoft 365 applications, including Outlook and Teams",
+      "Design user interfaces for integrating Copilot Studio with SharePoint and other Microsoft 365 services",
+      "Ensure alignment with Microsoft's Responsible AI principles and enterprise data protection standards in UI implementations"
     ],
-    "technologies": "React, TypeScript, Distributed Systems"
+    "technologies": "React, TypeScript, Fluent UI, Microsoft 365 ecosystem"
   },
   {
     "title": "Senior Front End Engineer",
     "company": "Kareo/Tebra (health tech)",
     "period": "Nov 2019 - 2021",
     "responsibilities": [
-      "Led architecture redesign reducing application build time by 30%",
-      "Built scalable payment processing system handling $10M+ annual transactions",
-      "Implemented TypeScript and modern frontend practices across legacy systems",
-      "Designed and implemented REST APIs for new product features",
-      "Mentored team of 5 engineers while delivering critical product features"
+      "Reduced Kareo's monolith application's build time by ~30%",
+      "Implemented an Apple Pay, Google Pay Point-Of-Sale UI with Stripe payment integration",
+      "Enabled TypeScript React.js capabilities for Kareo's UI monolith application"
     ],
-    "technologies": "React.js, TypeScript, REST APIs, Distributed Systems"
+    "technologies": "React.js, TypeScript, AWS"
   },
   {
     "title": "Senior Front End Engineer, Cloud Software Engineer",
     "company": "Rallio (marketing tech)",
     "period": "Sep 2016 - Nov 2019",
     "responsibilities": [
-      "Architected and built new product features serving 100K+ daily users",
-      "Designed distributed data integration system handling 1M+ daily requests",
-      "Led migration to modern frontend stack improving developer productivity",
-      "Implemented caching strategies reducing API load by 50%",
-      "Established technical best practices across multiple engineering teams"
+      "Redesigned and re-architected Rallio's flagship application",
+      "Architected, designed and implemented a AWS Fault-tolerant Data-integration application",
+      "Mentored junior UI developers"
     ],
-    "technologies": "Node.js, React.js, Distributed Systems, Caching Strategies"
+    "technologies": "Node.js, Ember.js, React.js, AWS"
   },
   {
     "title": "Front End Engineer",
