@@ -2,7 +2,9 @@
   "permissions": {
     "allow": [
       "Bash(deno install:*)",
-      "Bash(deno task:*)"
+      "Bash(deno task:*)",
+      "Bash(git stash:*)",
+      "Bash(lsof:*)"
     ],
     "deny": []
   }
