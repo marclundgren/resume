@@ -12,3 +12,18 @@ node_modules/
 
 # mac
 .DS_Store
+
+# MCP server config
+.claude/mcp.json
+
+# Build directories
+figma-mcp-server/build/
+figma-plugin/build/
+puppeteer-mcp-server/build/
+figma-mcp-server/node_modules/
+figma-plugin/node_modules/
+puppeteer-mcp-server/node_modules/
+
+# PDF output directory
+output/
+*.pdf

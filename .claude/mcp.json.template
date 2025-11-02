@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "resume-pdf": {
+      "command": "node",
+      "args": ["/Users/marc/Dev/resume/puppeteer-mcp-server/build/index.js"],
+      "env": {
+        "OUTPUT_DIR": "/Users/marc/Dev/resume/output",
+        "RESUME_URL": "http://localhost:8000",
+        "PROJECT_ROOT": "/Users/marc/Dev/resume"
+      }
+    }
+  }
+}
