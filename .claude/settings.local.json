@@ -3,10 +3,16 @@
     "allow": [
       "Bash(deno install:*)",
       "Bash(deno task:*)",
+      "Bash(gh pr create:*)",
+      "Bash(git add:*)",
+      "Bash(git add:*)",
+      "Bash(git checkout:*)",
+      "Bash(git checkout:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
       "Bash(git stash:*)",
       "Bash(lsof:*)",
-      "Bash(git checkout:*)",
-      "Bash(git add:*)"
+      "Bash(lsof:*)"
     ],
     "deny": []
   }
