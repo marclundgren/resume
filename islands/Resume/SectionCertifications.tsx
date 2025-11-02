@@ -19,10 +19,10 @@ export const SectionCertifications = () => {
 
   if (isPending) return <SkeletonLoader />;
   if (error) return <div>An error occurred: {error.message}</div>;
-  if (!data) return <div>No data found</div>;
+  if (!data || data.length === 0) return null;
   return (
-    <section className="mb-12">
-      <h2 className="text-2xl font-semibold mb-4 pb-2 border-b border-gray-200">
+    <section className="mb-6">
+      <h2 className="text-xl font-semibold mb-2 pb-1 border-b border-gray-200">
         Certifications
       </h2>
       <ul className="list-disc pl-5 text-gray-700">

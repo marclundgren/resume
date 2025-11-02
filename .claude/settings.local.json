@@ -4,7 +4,9 @@
       "Bash(deno install:*)",
       "Bash(deno task:*)",
       "Bash(git stash:*)",
-      "Bash(lsof:*)"
+      "Bash(lsof:*)",
+      "Bash(git checkout:*)",
+      "Bash(git add:*)"
     ],
     "deny": []
   }

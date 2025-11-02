@@ -4,14 +4,11 @@
     "company": "Microsoft (Copilot Studio Team)",
     "period": "Apr 2022 - Present",
     "responsibilities": [
-      "Lead development of new product features from concept to launch for enterprise customers",
-      "Architect and implement key features including conversational AI creation experiences and experimental control management",
-      "Participate in live site operations, including on-call rotations and incident management, presenting incident resolution takeaways to the team",
-      "Conduct regular code reviews for junior, mid-level, and senior developers, maintaining high code quality standards",
-      "Mentor junior teammates, fostering their professional growth and improving team productivity",
-      "Contribute to the development of a new embedded conversational AI creation experience for Microsoft Teams",
-      "Develop and maintain core UI/UX components for Microsoft Copilot Studio using React, TypeScript, and Fluent UI",
-      "Collaborate with architect designers to contribute to critical architectural decisions, enhancing system scalability and performance"
+      "Lead development of enterprise AI features from concept to launch, including conversational AI creation experiences",
+      "Architect and implement production features with React, TypeScript, and Fluent UI for Microsoft Copilot Studio",
+      "Participate in live site operations with on-call rotations, incident management, and resolution presentations",
+      "Conduct code reviews and mentor engineers at all levels, maintaining quality standards and team growth",
+      "Contribute to architectural decisions for system scalability and performance improvements"
     ],
     "technologies": "React, TypeScript, Microsoft 365 ecosystem, Fluent UI"
   },
@@ -36,39 +33,5 @@
       "Mentored junior UI developers"
     ],
     "technologies": "Node.js, Ember.js, React, AWS"
-  },
-  {
-    "title": "Front End Engineer",
-    "company": "Kinvey (Backend as a Service)",
-    "period": "Sep 2015 - Aug 2016",
-    "responsibilities": [
-      "Built and maintained a high-traffic complex single page application",
-      "Delivered a cloud-data backed identification cross-platform mobile app",
-      "Deployed and iterated in an agile start-up environment",
-      "Increased stability by introducing integration and acceptance tests for all Kinvey UIs"
-    ],
-    "technologies": "Node.js, Ember.js, Google Firebase"
-  },
-  {
-    "title": "Front End Developer",
-    "company": "FIDM",
-    "period": "Aug 2014 - Feb 2015",
-    "responsibilities": [
-      "Designed and built two Single Page Applications with React"
-    ],
-    "technologies": "React, Mithril.js"
-  },
-  {
-    "title": "Front End Software Engineer",
-    "company": "Liferay",
-    "period": "Feb 2012 - Aug 2014",
-    "responsibilities": [
-      "Open Source Development",
-      "Responsive, Mobile First Development",
-      "HTML5",
-      "Accessibility",
-      "Bootstrap 2 Implementation"
-    ],
-    "technologies": "HTML5, CSS3, JavaScript, Bootstrap"
   }
 ]

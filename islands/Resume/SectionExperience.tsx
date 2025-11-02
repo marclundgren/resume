@@ -16,11 +16,11 @@ export const SectionExperience = () => {
   if (error) return <div>An error occurred: {error.message}</div>;
   if (!data) return <div>No data found</div>;
   return (
-    <section className="mb-12">
-      <h2 className="text-2xl font-semibold mb-4 pb-2 border-b border-gray-200">
+    <section className="mb-4">
+      <h2 className="text-xl font-semibold mb-2 pb-1 border-b border-gray-200">
         Experience
       </h2>
-      <div className="space-y-6">
+      <div className="space-y-3">
         {data.map((experience, index) => (
           <ExperienceItem
             key={index}
