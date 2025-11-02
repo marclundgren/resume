@@ -23,7 +23,7 @@
   /* Content adjustments */
   .print-content {
     box-shadow: none !important;
-    padding: 0.5in !important;
+    padding: 0.3in !important;
     margin: 0 !important;
     max-width: none !important;
   }
@@ -57,10 +57,30 @@
   * {
     transform: none !important;
   }
+
+  /* Grid layout optimization for print */
+  .grid {
+    display: grid !important;
+  }
+
+  /* Reduce spacing for compact layout */
+  section {
+    margin-bottom: 0.5rem !important;
+  }
+
+  h2 {
+    font-size: 0.95rem !important;
+    margin-bottom: 0.25rem !important;
+  }
+
+  ul, p, li {
+    font-size: 0.75rem !important;
+    line-height: 1.3 !important;
+  }
 }
 
 /* Page settings for Letter size */
 @page {
   size: letter;
-  margin: 0.5in;
+  margin: 0.35in;
 }

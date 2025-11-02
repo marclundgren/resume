@@ -4,16 +4,24 @@
 
 import * as $_404 from "./routes/_404.tsx";
 import * as $_app from "./routes/_app.tsx";
+import * as $api_accomplishments from "./routes/api/accomplishments.ts";
 import * as $api_certifications from "./routes/api/certifications.ts";
 import * as $api_education from "./routes/api/education.ts";
 import * as $api_experience from "./routes/api/experience.ts";
+import * as $api_skills from "./routes/api/skills.ts";
+import * as $api_timeline from "./routes/api/timeline.ts";
 import * as $index from "./routes/index.tsx";
 import * as $Resume_ExperienceItem from "./islands/Resume/ExperienceItem.tsx";
 import * as $Resume_Header from "./islands/Resume/Header.tsx";
 import * as $Resume_Resume from "./islands/Resume/Resume.tsx";
+import * as $Resume_SectionAccomplishments from "./islands/Resume/SectionAccomplishments.tsx";
 import * as $Resume_SectionCertifications from "./islands/Resume/SectionCertifications.tsx";
 import * as $Resume_SectionEducation from "./islands/Resume/SectionEducation.tsx";
 import * as $Resume_SectionExperience from "./islands/Resume/SectionExperience.tsx";
+import * as $Resume_SectionSkills from "./islands/Resume/SectionSkills.tsx";
+import * as $Resume_SectionSummary from "./islands/Resume/SectionSummary.tsx";
+import * as $Resume_SectionTechnologies from "./islands/Resume/SectionTechnologies.tsx";
+import * as $Resume_SectionTimeline from "./islands/Resume/SectionTimeline.tsx";
 import * as $Resume_hooks_useQuery from "./islands/Resume/hooks/useQuery.tsx";
 import type { Manifest } from "$fresh/server.ts";
 
@@ -21,18 +29,27 @@ const manifest = {
   routes: {
     "./routes/_404.tsx": $_404,
     "./routes/_app.tsx": $_app,
+    "./routes/api/accomplishments.ts": $api_accomplishments,
     "./routes/api/certifications.ts": $api_certifications,
     "./routes/api/education.ts": $api_education,
     "./routes/api/experience.ts": $api_experience,
+    "./routes/api/skills.ts": $api_skills,
+    "./routes/api/timeline.ts": $api_timeline,
     "./routes/index.tsx": $index,
   },
   islands: {
     "./islands/Resume/ExperienceItem.tsx": $Resume_ExperienceItem,
     "./islands/Resume/Header.tsx": $Resume_Header,
     "./islands/Resume/Resume.tsx": $Resume_Resume,
+    "./islands/Resume/SectionAccomplishments.tsx":
+      $Resume_SectionAccomplishments,
     "./islands/Resume/SectionCertifications.tsx": $Resume_SectionCertifications,
     "./islands/Resume/SectionEducation.tsx": $Resume_SectionEducation,
     "./islands/Resume/SectionExperience.tsx": $Resume_SectionExperience,
+    "./islands/Resume/SectionSkills.tsx": $Resume_SectionSkills,
+    "./islands/Resume/SectionSummary.tsx": $Resume_SectionSummary,
+    "./islands/Resume/SectionTechnologies.tsx": $Resume_SectionTechnologies,
+    "./islands/Resume/SectionTimeline.tsx": $Resume_SectionTimeline,
     "./islands/Resume/hooks/useQuery.tsx": $Resume_hooks_useQuery,
   },
   baseUrl: import.meta.url,

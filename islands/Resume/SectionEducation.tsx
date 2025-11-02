@@ -21,15 +21,15 @@ export const SectionEducation = () => {
   if (error) return <div>An error occurred: {error.message}</div>;
   if (!data) return <div>No data found</div>;
   return (
-    <section className="mb-12">
-      <h2 className="text-2xl font-semibold mb-4 pb-2 border-b border-gray-200">
+    <section className="mb-4">
+      <h2 className="text-lg font-semibold mb-2 pb-1 border-b border-gray-200">
         Education
       </h2>
-      <div className="space-y-6">
+      <div className="space-y-1.5">
         {data.map((education, index) => (
           <div key={index}>
-            <h3 className="text-lg font-semibold">{education.school}</h3>
-            <p className="text-gray-700">{education.degree}</p>
+            <p className="text-sm font-semibold text-gray-700">{education.degree}</p>
+            <p className="text-xs text-gray-600">{education.school}</p>
           </div>
         ))}
       </div>

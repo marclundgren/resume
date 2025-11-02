@@ -1,0 +1,32 @@
+[
+  {
+    "company": "Microsoft",
+    "title": "UI Software Engineer",
+    "period": "Apr 2022 - Present"
+  },
+  {
+    "company": "Kareo/Tebra",
+    "title": "Senior Frontend Engineer",
+    "period": "Nov 2019 - Apr 2022"
+  },
+  {
+    "company": "Rallio",
+    "title": "Senior Frontend Engineer",
+    "period": "Sep 2016 - Nov 2019"
+  },
+  {
+    "company": "Kinvey",
+    "title": "Frontend Engineer",
+    "period": "Sep 2015 - Aug 2016"
+  },
+  {
+    "company": "FIDM",
+    "title": "Frontend Developer",
+    "period": "Aug 2014 - Feb 2015"
+  },
+  {
+    "company": "Liferay",
+    "title": "Frontend Engineer",
+    "period": "Feb 2012 - Aug 2014"
+  }
+]
