@@ -5,6 +5,7 @@
     padding: 0;
     -webkit-print-color-adjust: exact !important;
     print-color-adjust: exact !important;
+    color-adjust: exact !important;
   }
 
   /* Hide non-printable elements */
@@ -16,6 +17,7 @@
   .print-container {
     margin: 0;
     padding: 0;
+    max-width: none !important;
   }
 
   /* Content adjustments */
@@ -23,11 +25,42 @@
     box-shadow: none !important;
     padding: 0.5in !important;
     margin: 0 !important;
+    max-width: none !important;
+  }
+
+  /* Prevent page breaks inside elements */
+  h1, h2, h3, h4, h5, h6 {
+    page-break-after: avoid;
+    break-after: avoid;
+  }
+
+  p, li {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  /* Ensure backgrounds print */
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    color-adjust: exact !important;
+  }
+
+  /* Better font rendering for PDF */
+  body {
+    font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Remove any transforms that might cause issues */
+  * {
+    transform: none !important;
   }
 }
 
-/* Page settings */
+/* Page settings for Letter size */
 @page {
-  size: auto;
-  margin: 0;
+  size: letter;
+  margin: 0.5in;
 }
