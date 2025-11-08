@@ -15,17 +15,19 @@
 
   /* Container adjustments */
   .print-container {
-    margin: 0;
-    padding: 0;
+    margin: 0 !important;
+    padding: 0 !important;
     max-width: none !important;
   }
 
   /* Content adjustments */
   .print-content {
     box-shadow: none !important;
-    padding: 0.3in !important;
+    padding: 0.35in !important;
     margin: 0 !important;
     max-width: none !important;
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
   }
 
   /* Prevent page breaks inside elements */
@@ -63,24 +65,42 @@
     display: grid !important;
   }
 
-  /* Reduce spacing for compact layout */
+  /* Optimized spacing to fill page while staying on one page */
   section {
-    margin-bottom: 0.5rem !important;
+    margin-bottom: 0.7rem !important;
   }
 
   h2 {
-    font-size: 0.95rem !important;
-    margin-bottom: 0.25rem !important;
+    font-size: 0.94rem !important;
+    margin-bottom: 0.35rem !important;
+    margin-top: 0.45rem !important;
   }
 
   ul, p, li {
-    font-size: 0.75rem !important;
-    line-height: 1.3 !important;
+    font-size: 0.77rem !important;
+    line-height: 1.45 !important;
+  }
+
+  /* Add spacing to accomplishments list to fill page */
+  ul li {
+    margin-bottom: 0.18rem !important;
+  }
+
+  /* Add more spacing to summary paragraph */
+  .print-content > div > div > p:first-of-type {
+    margin-bottom: 0.6rem !important;
+    line-height: 1.5 !important;
+  }
+
+  /* Expand education section */
+  section:last-of-type {
+    margin-top: 0.6rem !important;
+    padding-bottom: 0.5rem !important;
   }
 }
 
 /* Page settings for Letter size */
 @page {
   size: letter;
-  margin: 0.35in;
+  margin: 0;
 }

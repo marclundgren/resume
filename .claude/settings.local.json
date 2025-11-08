@@ -12,7 +12,15 @@
       "Bash(git push:*)",
       "Bash(git stash:*)",
       "Bash(git stash:*)",
-      "Bash(lsof:*)"
+      "Bash(lsof:*)",
+      "Bash(npm install)",
+      "Bash(node --version:*)",
+      "Bash(cp:*)",
+      "Bash(mkdir:*)",
+      "Bash(deno run:*)",
+      "Bash(PUPPETEER_PRODUCT=chrome deno run:*)",
+      "Bash(chmod:*)",
+      "Bash(node scripts/export-pdf.js:*)"
     ],
     "deny": []
   }
