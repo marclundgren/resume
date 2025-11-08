@@ -5,6 +5,7 @@ import { SectionAccomplishments } from "./SectionAccomplishments.tsx";
 import { SectionTechnologies } from "./SectionTechnologies.tsx";
 import { SectionEducation } from "./SectionEducation.tsx";
 import { SectionTimeline } from "./SectionTimeline.tsx";
+import { SectionExperience } from "./SectionExperience.tsx";
 import { QueryClient, QueryClientProvider } from "./hooks/useQuery.tsx";
 
 const queryClient = new QueryClient();
