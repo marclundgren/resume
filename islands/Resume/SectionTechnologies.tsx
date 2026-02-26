@@ -3,10 +3,15 @@ export const SectionTechnologies = () => {
     "React",
     "TypeScript",
     "Node.js",
+    "GraphQL",
+    "REST APIs",
+    "Jest",
+    "Cypress",
     "AWS",
     "Azure",
     "Fluent UI",
-    "Ember.js"
+    "Webpack",
+    "Babel"
   ];
 
   return (

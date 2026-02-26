@@ -30,6 +30,7 @@ export const SectionEducation = () => {
           <div key={index}>
             <p className="text-sm font-semibold text-gray-700">{education.degree}</p>
             <p className="text-xs text-gray-600">{education.school}</p>
+            <p className="text-xs text-gray-500">{education.period}</p>
           </div>
         ))}
       </div>

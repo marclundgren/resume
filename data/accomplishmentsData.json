@@ -1,15 +1,14 @@
 [
-  "Lead enterprise AI features for Microsoft Copilot Studio from concept to launch",
-  "Architect and implement production features with React, TypeScript, and Fluent UI",
-  "Participate in live site operations with on-call rotations and incident management",
-  "Conduct code reviews and mentor engineers at all levels",
-  "Reduced build time by 30% at Kareo's monolith application",
-  "Implemented Apple Pay/Google Pay Point-Of-Sale UI with Stripe integration",
+  "Lead development of agentic workflow builders and LLM-powered conversational AI experiences at Microsoft Copilot Studio",
+  "Architect AI-driven UX features with React, TypeScript, and Fluent UI in large-scale monorepo",
+  "Partner with Product Management to define roadmaps for enterprise AI initiatives",
+  "Conduct code reviews and mentor engineers at all levels across the organization",
+  "Contributed to microfrontend architecture within Kareo/Tebra's healthcare platform",
+  "Owned end-to-end payment processing UI serving healthcare providers with Stripe integration",
+  "Reduced build time by 30% at Kareo's monolith application through tooling optimization",
   "Re-architected flagship application for Rallio with modern React stack",
   "Built AWS fault-tolerant data integration systems",
   "Enabled TypeScript capabilities for large-scale legacy applications",
   "Introduced integration testing across multiple UIs at Kinvey",
-  "Designed and developed responsive UI components used across multiple products",
-  "Collaborated with cross-functional teams including design, product, and backend engineers",
-  "Optimized application performance resulting in improved user experience and load times"
+  "Collaborated with cross-functional teams including design, product, and backend engineers"
 ]

@@ -1,27 +1,30 @@
 [
   {
-    "title": "User Interface Software Engineer",
+    "title": "Senior User Interface Engineer",
     "company": "Microsoft (Copilot Studio Team)",
     "period": "Apr 2022 - Present",
     "responsibilities": [
-      "Lead development of enterprise AI features from concept to launch, including conversational AI creation experiences",
-      "Architect and implement production features with React, TypeScript, and Fluent UI for Microsoft Copilot Studio",
-      "Participate in live site operations with on-call rotations, incident management, and resolution presentations",
-      "Conduct code reviews and mentor engineers at all levels, maintaining quality standards and team growth",
-      "Contribute to architectural decisions for system scalability and performance improvements"
+      "Lead development of enterprise AI features from concept to launch, including agentic workflow builders and LLM-powered conversational AI experiences",
+      "Partner with Product Management to define roadmaps and identify technical risks for AI-driven UX initiatives",
+      "Architect production features with React, TypeScript, and Fluent UI in a large-scale monorepo environment",
+      "Champion AI-assisted development tools (GitHub Copilot) to improve team velocity and code quality",
+      "Drive architectural decisions for customer-facing AI experiences serving enterprise customers",
+      "Conduct code reviews and mentor engineers at all levels, maintaining quality standards and team growth"
     ],
-    "technologies": "React, TypeScript, Microsoft 365 ecosystem, Fluent UI"
+    "technologies": "React, TypeScript, Jest, Microsoft 365 ecosystem, Fluent UI, GraphQL"
   },
   {
     "title": "Senior Front End Engineer",
     "company": "Kareo/Tebra (health tech)",
     "period": "Nov 2019 - Apr 2022",
     "responsibilities": [
-      "Reduced Kareo's monolith application's build time by ~30%",
-      "Implemented an Apple Pay, Google Pay Point-Of-Sale UI with Stripe payment integration",
+      "Contributed to microfrontend architecture initiatives within Kareo's monorepo environment",
+      "Owned end-to-end development of payment processing UI from requirements through production with Stripe integration",
+      "Partnered with backend and product teams to define REST API contracts for healthcare provider workflows",
+      "Reduced Kareo's monolith application build time by ~30% through tooling optimizations",
       "Enabled TypeScript React capabilities for Kareo's UI monolith application"
     ],
-    "technologies": "React, TypeScript, AWS"
+    "technologies": "React, TypeScript, Jest, Cypress, AWS, REST APIs"
   },
   {
     "title": "Senior Front End Engineer, Cloud Software Engineer",
