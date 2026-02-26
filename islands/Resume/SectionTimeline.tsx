@@ -22,14 +22,19 @@ export const SectionTimeline = () => {
   if (!data) return <div>No data found</div>;
 
   return (
-    <div className="space-y-3">
-      {data.map((item, index) => (
-        <div key={index} className="text-right">
-          <div className="font-semibold text-sm">{item.company}</div>
-          <div className="text-xs text-gray-600 italic">{item.title}</div>
-          <div className="text-xs text-gray-500">{item.period}</div>
-        </div>
-      ))}
-    </div>
+    <section className="mb-4">
+      <h2 className="text-lg font-semibold mb-2 pb-1 border-b border-gray-200">
+        Work History
+      </h2>
+      <div className="space-y-3">
+        {data.map((item, index) => (
+          <div key={index} className="text-right">
+            <div className="font-semibold text-sm">{item.company}</div>
+            <div className="text-xs text-gray-600 italic">{item.title}</div>
+            <div className="text-xs text-gray-500">{item.period}</div>
+          </div>
+        ))}
+      </div>
+    </section>
   );
 };
