@@ -67,7 +67,7 @@
 
   /* Optimized spacing to fill page while staying on one page */
   section {
-    margin-bottom: 0.7rem !important;
+    margin-bottom: 0.55rem !important;
   }
 
   h2 {
@@ -94,8 +94,8 @@
 
   /* Expand education section */
   section:last-of-type {
-    margin-top: 0.6rem !important;
-    padding-bottom: 0.5rem !important;
+    margin-top: 0 !important;
+    padding-bottom: 0 !important;
   }
 }
 
