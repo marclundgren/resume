@@ -1,14 +1,14 @@
 [
-  "Lead development of agentic workflow builders and LLM-powered conversational AI experiences at Microsoft Copilot Studio",
-  "Architect AI-driven UX features with React, TypeScript, and Fluent UI in large-scale monorepo",
-  "Partner with Product Management to define roadmaps for enterprise AI initiatives",
-  "Conduct code reviews and mentor engineers at all levels across the organization",
-  "Contributed to microfrontend architecture within Kareo/Tebra's healthcare platform",
-  "Owned end-to-end payment processing UI serving healthcare providers with Stripe integration",
-  "Reduced build time by 30% at Kareo's monolith application through tooling optimization",
-  "Re-architected flagship application for Rallio with modern React stack",
-  "Built AWS fault-tolerant data integration systems",
-  "Enabled TypeScript capabilities for large-scale legacy applications",
-  "Introduced integration testing across multiple UIs at Kinvey",
-  "Collaborated with cross-functional teams including design, product, and backend engineers"
+  "Led foundational tooling development for an AI-powered agentic platform at Microsoft Copilot Studio, enabling teams to ship faster on a shared infrastructure",
+  "Maintained CI/CD pipelines (Azure DevOps at Microsoft, Travis CI at Kinvey) to ensure reliable, high-velocity delivery",
+  "Reduced build time by 30% at Kareo through tooling optimization across a large-scale monolith application",
+  "Worked across the full stack at every role: frontend UIs, backend service integration, REST API contract definition, and build/CI infrastructure",
+  "Maintained large-scale monorepo architecture at Microsoft using the Rush build system with React and TypeScript",
+  "Built shared component frameworks and developer tooling used across multiple engineering teams",
+  "Enabled TypeScript capabilities for large-scale legacy applications, improving developer experience and code reliability",
+  "Contributed to microfrontend architecture at Kareo, improving independent deployment and team autonomy",
+  "Mentored engineers at all levels through code reviews and hands-on guidance; invested in team-wide proficiency as a force multiplier",
+  "Defined REST API contracts with backend and product teams, owning the frontend-backend interface from requirements through production",
+  "Built AWS fault-tolerant data integration systems at Rallio",
+  "Introduced integration testing across multiple UIs at Kinvey"
 ]

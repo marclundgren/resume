@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "export-pdf": "node scripts/export-pdf.js"
+  },
   "dependencies": {
     "preact": "^10.26.9"
   }

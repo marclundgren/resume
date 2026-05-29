@@ -1,7 +1,7 @@
 [
-  "AI-Driven UX & LLM Integration",
-  "Technical Leadership & Mentoring",
-  "Frontend Architecture (Monorepo, Microfrontends)",
-  "Cross-Functional Product Partnership",
-  "Code Quality & Testing Standards"
+  "Frontend Architecture & Frameworks (React, TypeScript)",
+  "Monorepo & Build Tooling (Rush, webpack, Babel, tsc, yarn workspaces)",
+  "CI/CD & Dev Infrastructure (Azure DevOps, Travis CI, pipeline optimization)",
+  "AI-Driven UX & Platform Engineering (agentic workflows, LLM integration)",
+  "Technical Leadership & Mentoring (code review culture, team enablement)"
 ]

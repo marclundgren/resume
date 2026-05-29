@@ -6,12 +6,13 @@
     "responsibilities": [
       "Lead development of enterprise AI features from concept to launch, including agentic workflow builders and LLM-powered conversational AI experiences",
       "Partner with Product Management to define roadmaps and identify technical risks for AI-driven UX initiatives",
-      "Architect production features with React, TypeScript, and Fluent UI in a large-scale monorepo environment",
+      "Architect production features with React, TypeScript, and Fluent UI in a large-scale monorepo using the Rush build system",
+      "Configure and maintain Azure DevOps CI/CD pipelines to ensure reliable delivery of AI features across the team",
       "Champion AI-assisted development tools (GitHub Copilot) to improve team velocity and code quality",
       "Drive architectural decisions for customer-facing AI experiences serving enterprise customers",
       "Conduct code reviews and mentor engineers at all levels, maintaining quality standards and team growth"
     ],
-    "technologies": "React, TypeScript, Jest, Microsoft 365 ecosystem, Fluent UI, GraphQL"
+    "technologies": "React, TypeScript, Jest, Fluent UI, GraphQL, Rush, Azure DevOps"
   },
   {
     "title": "Senior Front End Engineer",
@@ -24,7 +25,7 @@
       "Reduced Kareo's monolith application build time by ~30% through tooling optimizations",
       "Enabled TypeScript React capabilities for Kareo's UI monolith application"
     ],
-    "technologies": "React, TypeScript, Jest, Cypress, AWS, REST APIs"
+    "technologies": "React, TypeScript, Jest, Cypress, webpack, tsc, yarn workspaces, AWS, REST APIs"
   },
   {
     "title": "Senior Front End Engineer, Cloud Software Engineer",
