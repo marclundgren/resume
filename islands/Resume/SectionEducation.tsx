@@ -29,7 +29,7 @@ export const SectionEducation = () => {
         {data.map((education, index) => (
           <div key={index}>
             <p className="text-sm font-semibold text-gray-700">{education.degree}</p>
-            <p className="text-xs text-gray-600">{education.school} • {education.period}</p>
+            <p className="text-xs text-gray-600">{education.school}</p>
           </div>
         ))}
       </div>
