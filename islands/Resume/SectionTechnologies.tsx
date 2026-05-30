@@ -3,7 +3,6 @@ export const SectionTechnologies = () => {
     "React",
     "TypeScript",
     "Node.js",
-    "Go",
     "REST APIs",
     "GraphQL",
     "Jest",
