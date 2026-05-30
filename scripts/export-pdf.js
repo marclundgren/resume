@@ -43,6 +43,7 @@ console.log(`💾 Output: ${outputPath}`);
       path: outputPath,
       format: "Letter",
       printBackground: true,
+      pageRanges: "1",
       margin: {
         top: "0",
         right: "0",
