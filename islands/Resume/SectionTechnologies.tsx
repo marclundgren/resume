@@ -1,13 +1,13 @@
 export const SectionTechnologies = () => {
   const technologies = [
-    "React",
+    "Azure DevOps",
+    "Terraform",
+    "GitHub Actions",
+    "AWS",
     "TypeScript",
     "Node.js",
     "REST APIs",
-    "GraphQL",
-    "Jest",
-    "Cypress",
-    "AWS",
+    "React",
     "GitHub Copilot",
     "Claude Code",
   ];

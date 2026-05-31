@@ -4,38 +4,40 @@
     "company": "Microsoft (Copilot Studio Team)",
     "period": "Apr 2022 - Present",
     "responsibilities": [
-      "Lead development of enterprise AI features from concept to launch, including agentic workflow builders and LLM-powered conversational AI experiences",
-      "Partner with Product Management to define roadmaps and identify technical risks for AI-driven UX initiatives",
-      "Architect production features with React, TypeScript, and Fluent UI in a large-scale monorepo using the Rush build system",
-      "Configure and maintain Azure DevOps CI/CD pipelines to ensure reliable delivery of AI features across the team",
+      "Configure and own Azure DevOps CI/CD pipelines ensuring reliable, high-velocity delivery of production AI platform features to enterprise customers",
+      "Lead development of the shared platform foundations and agentic workflow builders powering Copilot Studio's AI-driven experiences",
+      "Architect production features in a large-scale monorepo using Rush build system, TypeScript, and React across multiple engineering teams",
+      "Partner with Product Management to define roadmaps and identify technical risks for platform-wide AI initiatives",
       "Champion AI-assisted development tools (GitHub Copilot) to improve team velocity and code quality",
-      "Drive architectural decisions for customer-facing AI experiences serving enterprise customers",
+      "Drive architectural decisions for enterprise-scale cloud-delivered AI experiences",
       "Conduct code reviews and mentor engineers at all levels, maintaining quality standards and team growth"
     ],
-    "technologies": "React, TypeScript, Jest, Fluent UI, GraphQL, Rush, Azure DevOps"
+    "technologies": "TypeScript, React, Azure DevOps, Rush, Jest, Fluent UI, GraphQL, GitHub Actions"
   },
   {
     "title": "Senior Front End Engineer",
     "company": "Kareo/Tebra (health tech)",
     "period": "Nov 2019 - Apr 2022",
     "responsibilities": [
+      "Wrote and maintained Terraform infrastructure-as-code configurations for deployment automation across the application stack",
       "Contributed to microfrontend architecture initiatives within Kareo's monorepo environment",
       "Owned end-to-end development of payment processing UI from requirements through production with Stripe integration",
       "Partnered with backend and product teams to define REST API contracts for healthcare provider workflows",
       "Reduced Kareo's monolith application build time by ~30% through tooling optimizations",
-      "Enabled TypeScript React capabilities for Kareo's UI monolith application"
+      "Enabled TypeScript capabilities for Kareo's UI monolith application"
     ],
-    "technologies": "React, TypeScript, Jest, Cypress, webpack, tsc, yarn workspaces, AWS, REST APIs"
+    "technologies": "Terraform, TypeScript, React, Jest, Cypress, webpack, tsc, yarn workspaces, AWS, REST APIs"
   },
   {
-    "title": "Senior Front End Engineer, Cloud Software Engineer",
+    "title": "Cloud Software Engineer, Senior Front End Engineer",
     "company": "Rallio (marketing tech)",
     "period": "Sep 2016 - Nov 2019",
     "responsibilities": [
+      "Architected, designed, and implemented a fault-tolerant AWS data integration system handling cross-platform data pipelines at scale",
+      "Designed cloud infrastructure for reliable, self-healing data workflows using AWS services",
       "Redesigned and re-architected Rallio's flagship application",
-      "Architected, designed and implemented a AWS Fault-tolerant Data-integration application",
-      "Mentored junior UI developers"
+      "Mentored junior developers"
     ],
-    "technologies": "Node.js, Ember.js, React, AWS"
+    "technologies": "AWS, Node.js, Ember.js, React"
   }
 ]

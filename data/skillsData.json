@@ -1,7 +1,7 @@
 [
-  "Frontend Architecture & Frameworks (React, TypeScript)",
-  "Monorepo & Build Tooling (Rush, webpack, Babel, tsc, yarn workspaces)",
-  "CI/CD & Dev Infrastructure (Azure DevOps, Travis CI, pipeline optimization)",
-  "AI-Driven UX & Platform Engineering (agentic workflows, LLM integration)",
-  "Technical Leadership & Mentoring (code review culture, team enablement)"
+  "Cloud & CI/CD Infrastructure (Azure DevOps, GitHub Actions, AWS, multi-cloud pipelines)",
+  "Infrastructure as Code & Build Automation (Terraform, pipeline orchestration, scripting)",
+  "Platform Engineering & Reliability (enterprise-scale production systems, shared foundations)",
+  "Technical Leadership & Mentoring (code review culture, team enablement, force multiplication)",
+  "Full-Stack Integration (TypeScript, Node.js, REST APIs, backend service contracts)"
 ]

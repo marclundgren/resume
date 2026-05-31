@@ -1,14 +1,14 @@
 [
-  "Led foundational tooling development for an AI-powered agentic platform at Microsoft Copilot Studio, enabling teams to ship faster on a shared infrastructure",
-  "Maintained CI/CD pipelines (Azure DevOps at Microsoft, Travis CI at Kinvey) to ensure reliable, high-velocity delivery",
+  "Owned Azure DevOps CI/CD pipelines at Microsoft Copilot Studio, ensuring reliable delivery of production AI platform features to enterprise customers at scale",
+  "Wrote Terraform infrastructure-as-code at Kareo/Tebra, automating deployment configuration across the application stack",
+  "Architected fault-tolerant AWS data integration system at Rallio, designing cloud infrastructure for reliable, self-healing data pipelines",
+  "Maintained and improved CI/CD pipelines across multiple roles (Azure DevOps at Microsoft, Travis CI at Kinvey), enabling high-velocity, low-risk deployments",
   "Reduced build time by 30% at Kareo through tooling optimization across a large-scale monolith application",
-  "Worked across the full stack at every role: frontend UIs, backend service integration, REST API contract definition, and build/CI infrastructure",
-  "Maintained large-scale monorepo architecture at Microsoft using the Rush build system with React and TypeScript",
-  "Built shared component frameworks and developer tooling used across multiple engineering teams",
+  "Built shared platform foundations at Microsoft Copilot Studio enabling multiple engineering teams to ship faster on common infrastructure",
+  "Maintained large-scale monorepo architecture at Microsoft using the Rush build system with TypeScript across multiple product teams",
   "Enabled TypeScript capabilities for large-scale legacy applications, improving developer experience and code reliability",
   "Contributed to microfrontend architecture at Kareo, improving independent deployment and team autonomy",
   "Mentored engineers at all levels through code reviews and hands-on guidance; invested in team-wide proficiency as a force multiplier",
-  "Defined REST API contracts with backend and product teams, owning the frontend-backend interface from requirements through production",
-  "Built AWS fault-tolerant data integration systems at Rallio",
+  "Defined REST API contracts with backend and product teams, owning the service interface from requirements through production",
   "Introduced integration testing across multiple UIs at Kinvey"
 ]

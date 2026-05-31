@@ -20,7 +20,12 @@
       "Bash(deno run:*)",
       "Bash(PUPPETEER_PRODUCT=chrome deno run:*)",
       "Bash(chmod:*)",
-      "Bash(node scripts/export-pdf.js:*)"
+      "Bash(node scripts/export-pdf.js:*)",
+      "Bash(curl:*)",
+      "Bash(npm run export-pdf:*)",
+      "Bash(pkill:*)",
+      "Bash(npm run:*)",
+      "Bash(open:*)"
     ],
     "deny": []
   }
